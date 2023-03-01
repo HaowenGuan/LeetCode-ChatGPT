@@ -139,6 +139,38 @@ sleep(5)  # FIXME: should probably be a busy-waiting loop
 test_submission_result = api_instance.submissions_detail_id_check_get(
     id=interpretation_id.interpret_id
 )
+
+#%% Testing Submission Function
+code = """
+class Solution:
+    def twoSum(self, nums, target):
+        record = {}
+        for i, n in enumerate(nums):
+            if target - n in record.keys():
+                return [record[target - n], i]
+            record[n] = i
+"""
+
+test_submission = leetcode.TestSubmission(
+    data_input="[2,7,11,15]\n9",
+    typed_code=code,
+    question_id=1,
+    test_mode=False,
+    lang="python",
+)
+
+interpretation_id = api_instance.problems_problem_interpret_solution_post(
+    problem="two-sum", body=test_submission
+)
+
+print("Test has been queued. Result:")
+print(interpretation_id)
+
+sleep(5)  # FIXME: should probably be a busy-waiting loop
+
+test_submission_result = api_instance.submissions_detail_id_check_get(
+    id=interpretation_id.interpret_id
+)
 #%%
 # print("Got test result:")
 # print(leetcode.TestSubmissionResult(**test_submission_result))
