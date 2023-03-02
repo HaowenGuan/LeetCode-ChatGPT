@@ -107,8 +107,7 @@ print("Stats of this session")
 # print(api_response)
 print('skip stats')
 
-#%% Testing TestSubmission Function
-# Try to test your solution
+#%% Only Test given test case
 code = """
 class Solution:
     def twoSum(self, nums, target):
@@ -140,7 +139,7 @@ test_submission_result = api_instance.submissions_detail_id_check_get(
     id=interpretation_id.interpret_id
 )
 
-#%% Testing Submission Function
+#%% Real submission to leetcode, submission with be record!
 code = """
 class Solution:
     def twoSum(self, nums, target):
@@ -151,15 +150,15 @@ class Solution:
             record[n] = i
 """
 
-test_submission = leetcode.TestSubmission(
-    data_input="[2,7,11,15]\n9",
+test_submission = leetcode.Submission(
+    judge_type="large",
     typed_code=code,
     question_id=1,
     test_mode=False,
     lang="python",
 )
 
-interpretation_id = api_instance.problems_problem_interpret_solution_post(
+interpretation_id = api_instance.problems_problem_submit_post(
     problem="two-sum", body=test_submission
 )
 
