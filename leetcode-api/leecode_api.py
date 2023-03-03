@@ -4,8 +4,8 @@ import leetcode
 from time import sleep
 
 # Get the next two values from your browser cookies
-leetcode_session = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfYXV0aF91c2VyX2lkIjoiMTQ4NTQ4MiIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImFsbGF1dGguYWNjb3VudC5hdXRoX2JhY2tlbmRzLkF1dGhlbnRpY2F0aW9uQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjZhNjBlMzhlYmY2MTViOWQ2NGIzZWY4MTA3NDQyMTc4YmRlYmYzODgiLCJpZCI6MTQ4NTQ4MiwiZW1haWwiOiI4NTEwMjM1NjFAcXEuY29tIiwidXNlcm5hbWUiOiJFWEJPUk4iLCJ1c2VyX3NsdWciOiJFWEJPUk4iLCJhdmF0YXIiOiJodHRwczovL2Fzc2V0cy5sZWV0Y29kZS5jb20vdXNlcnMvYXZhdGFycy9hdmF0YXJfMTY2NTExMjMwNS5wbmciLCJyZWZyZXNoZWRfYXQiOjE2Nzc3ODA4NTIsImlwIjoiNzEuMTcyLjQxLjQiLCJpZGVudGl0eSI6IjhmNmEyMzhlM2FkMzgyZGFiYzJhNTVmMTRiMGYxNGRjIiwiX3Nlc3Npb25fZXhwaXJ5IjoxMjA5NjAwLCJzZXNzaW9uX2lkIjozNDI2ODIxMn0.4_wCRUB4yNqSPFnukhGX6nCY0ybGgzu-H9Q2cKvNBvY"
-csrf_token = "7oAfAKkxhGSWx7GzfGlXxjXCuudpRloqvQLTOz77K4lEYvO79ZFKlwqphAILP6qv"
+leetcode_session = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb2NpYWxhY2NvdW50X3NvY2lhbGxvZ2luIjp7ImFjY291bnQiOnsiaWQiOm51bGwsInVzZXJfaWQiOm51bGwsInByb3ZpZGVyIjoiZ29vZ2xlIiwidWlkIjoiMTE2MjE5OTc3NDg5ODgzMzQ2Njk3IiwibGFzdF9sb2dpbiI6bnVsbCwiZGF0ZV9qb2luZWQiOm51bGwsImV4dHJhX2RhdGEiOnsiaWQiOiIxMTYyMTk5Nzc0ODk4ODMzNDY2OTciLCJlbWFpbCI6ImhsamJhenhAZ21haWwuY29tIiwidmVyaWZpZWRfZW1haWwiOnRydWUsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9kZWZhdWx0LXVzZXI9czk2LWMifX0sInVzZXIiOnsiaWQiOm51bGwsInBhc3N3b3JkIjoiIUlYdERHcTJaNVk0OTdpWno2M1I2WGEwRGdFVzNvTnBuQ3Q3SWhUQXoiLCJsYXN0X2xvZ2luIjpudWxsLCJpc19zdXBlcnVzZXIiOmZhbHNlLCJ1c2VybmFtZSI6IiIsImZpcnN0X25hbWUiOiIiLCJsYXN0X25hbWUiOiIiLCJlbWFpbCI6ImhsamJhenhAZ21haWwuY29tIiwiaXNfc3RhZmYiOmZhbHNlLCJpc19hY3RpdmUiOnRydWUsImRhdGVfam9pbmVkIjoiMjAyMy0wMy0wMlQwMDo0ODoxNC4yMDBaIn0sInN0YXRlIjp7Im5leHQiOiIvIiwicHJvY2VzcyI6ImxvZ2luIiwic2NvcGUiOiIiLCJhdXRoX3BhcmFtcyI6IiJ9LCJlbWFpbF9hZGRyZXNzZXMiOlt7ImlkIjpudWxsLCJ1c2VyX2lkIjpudWxsLCJlbWFpbCI6ImhsamJhenhAZ21haWwuY29tIiwidmVyaWZpZWQiOnRydWUsInByaW1hcnkiOnRydWV9XSwidG9rZW4iOnsiaWQiOm51bGwsImFwcF9pZCI6MSwiYWNjb3VudF9pZCI6bnVsbCwidG9rZW4iOiJ5YTI5LmEwQVZ2WlZzcGdiQzdKQ05HZmpDTkg4emV5MVpuNU92alVGRWIxUFlVNnJKSUJpYXgwZHBQRXFoZVFYX3Job092bkYxV1kzSlF4OUItTXozemFCTm5TZWhxYmNkRmxKNUFKM2taWjU5bThOdi1OQkFXMmlYTlBoeFIzcmxLQk9XbU1pZ05mWmJhNVNBMmtTbmZ0R2IzcC1QYlpZZFVwYUNnWUtBVnNTQVJJU0ZRR2Jkd2FJdE1RVTE3b2ZJdWtCYldNcWR5Q1MtZzAxNjMiLCJ0b2tlbl9zZWNyZXQiOiIiLCJleHBpcmVzX2F0IjoiMjAyMy0wMy0wMlQwMTo0ODoxMy4wNTVaIn19LCJfYXV0aF91c2VyX2lkIjoiNDg2MzA0NyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImFsbGF1dGguYWNjb3VudC5hdXRoX2JhY2tlbmRzLkF1dGhlbnRpY2F0aW9uQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6ImJkYjk0OWVhZjI3YjcyOTExZDNlODkzYjc1NWE3NmQ0MWE4ZmQ5MDYiLCJpZCI6NDg2MzA0NywiZW1haWwiOiJobGpiYXp4QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiU2VsZW5hX3p4IiwidXNlcl9zbHVnIjoiU2VsZW5hX3p4IiwiYXZhdGFyIjoiaHR0cHM6Ly9zMy11cy13ZXN0LTEuYW1hem9uYXdzLmNvbS9zMy1sYy11cGxvYWQvYXNzZXRzL2RlZmF1bHRfYXZhdGFyLmpwZyIsInJlZnJlc2hlZF9hdCI6MTY3NzcxODE2MywiaXAiOiIxMDAuOC4yMjIuMjAxIiwiaWRlbnRpdHkiOiIwOGM4NmFmOWQxZTUxZWFiZGUzY2EyMGM1ZTI5MzMwOCIsInNlc3Npb25faWQiOjM1OTc5MTg3LCJfc2Vzc2lvbl9leHBpcnkiOjEyMDk2MDB9.GEkJH5VpXcLiOUxV1_vbjj2uCMc5-RlIa1vosOluPGI;"
+csrf_token = "LRiEmCdcNLbMowaKQE1pAwDXQO6jUf53l9x2OfjWQaSod2EdBKjHjrQbTFrT6q"
 
 # Experimental: Or CSRF token can be obtained automatically
 import leetcode.auth
@@ -19,7 +19,7 @@ configuration.api_key["csrftoken"] = csrf_token
 configuration.api_key["LEETCODE_SESSION"] = leetcode_session
 configuration.api_key["Referer"] = "https://leetcode.com"
 configuration.debug = False
-print('wtf')
+
 api_instance = leetcode.DefaultApi(leetcode.ApiClient(configuration))
 
 
@@ -264,19 +264,34 @@ def get_problem(problem="two-sum"):
     )
 
     api_response = api_instance.graphql_post(body=graphql_request)
-    print("Question ----------------------------")
-    soup = BeautifulSoup(output.data.question.content, "html.parser")
-    # print(" ".join(soup.get_text(separator=" ").split()))
-    print(soup.get_text())
-    print("Initial Code ------------------------")
-    print(output.data.question.code_snippets[2].code)
-    if hasattr(output.data.question, "hint"):
-        print('Hint')
-        print(output.data.question.hint)
-    print("stats -------------------------------")
-    print(output.data.question.stats)
+    # print("Question ----------------------------")
+    
+    # soup = BeautifulSoup(api_response.data.question.content, "html.parser")
+    # # print(" ".join(soup.get_text(separator=" ").split()))
+    # print(soup.get_text())
+    # print("Initial Code ------------------------")
+    # print(api_response.data.question.code_snippets[2].code)
+    # if hasattr(api_response.data.question, "hint"):
+    #     print('Hint')
+    #     print(api_response.data.question.hint)
+    # print("stats -------------------------------")
+    # print(api_response.data.question.stats)
+    
+    question_str = "Question ----------------------------\n"
+    
+    soup = BeautifulSoup(api_response.data.question.content, "html.parser")
+    print(str(soup))
+    question_str += soup.get_text()
+    question_str += "\nInitial Code ------------------------\n"
+    question_str += api_response.data.question.code_snippets[2].code
+    if hasattr(api_response.data.question, "hint"):
+        question_str += '\nHint\n'
+        question_str += api_response.data.question.hint
 
-    return api_response
+    print("stats -------------------------------")
+    print(api_response.data.question.stats)
+
+    return str(soup)
 
 # %%
 code = """
@@ -300,5 +315,26 @@ status = submission(1, code, lang="python")
 print(status)
 
 # %%
-output = get_problem(problem="Longest-Substring-Without-Repeating-Characters")
+output = get_problem(problem="Minimum-Time-to-Visit-a-Cell-In-a-Grid")
+# %%
+import json
+import openai
+import os
+openai.api_key = "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"
+
+messages = [
+    # system message first, it helps set the behavior of the assistant
+    {"role": "system", "content": "Let's do some coding questions!"}]
+message = "Write python codes to answer the following question:\n" + output
+if message:
+    messages.append(
+        {"role": "user", "content": message},
+    )
+    chat_completion = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo", messages=messages
+    )
+
+reply = chat_completion.choices[0].message.content
+print(f"🤖: {reply}")
+messages.append({"role": "assistant", "content": reply})
 # %%
