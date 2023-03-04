@@ -284,8 +284,8 @@ def get_problem(api_instance, problem="two-sum", lang="Python"):
 
 #%%
 def chatgpt_response(problem_content, question_code, question_hint, messages):
-    message = "Just write python codes to answer the following question without any explanation or example cases:\n" + problem_content
-    message += ("\nWithin the following code structure:\n" + question_code)
+    message = "Just write python codes to answer the following question without any explaination or example cases:\n" + problem_content
+    message += ("\nWrite all under the following code module:\n" + question_code)
     if question_hint:
         message += ("\n The hints are shown below:\n" + question_hint)
         
@@ -312,13 +312,14 @@ def main():
     # Get Question List
     problem_list = get_problem_list(api_instance)
     
+    i = 0 # Selected problem index in the list
     # Select one of question (can use for loop to loop all questions)
-    problem_slug = problem_list.stat_status_pairs[0].stat.question__title_slug
-    problem_id = problem_list.stat_status_pairs[0].stat.question_id
+    problem_slug = problem_list.stat_status_pairs[i].stat.question__title_slug
+    problem_id = problem_list.stat_status_pairs[i].stat.question_id
     problem_content, question_code, question_hint, question_status = get_problem(api_instance, problem_slug)
     print("\nCode Problem ------------------------------------\n")
-    print("Problem Name:", problem_list.stat_status_pairs[0].stat.question__title)
-    print("Problem id in Leetcode Website:", problem_list.stat_status_pairs[0].stat.frontend_question_id)
+    print("Problem Name:", problem_list.stat_status_pairs[i].stat.question__title)
+    print("Problem id in Leetcode Website:", problem_list.stat_status_pairs[i].stat.frontend_question_id)
     print("Problem id in our code:", problem_id)
     print("Problem Status:", question_status)
     
