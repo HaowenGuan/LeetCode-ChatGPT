@@ -5,6 +5,7 @@ from time import sleep
 import json
 import leetcode.auth
 import openai
+from bs4 import BeautifulSoup
 
 def setup():
 
@@ -30,7 +31,7 @@ def setup():
     return api_instance
 
 
-#%% Status Checking
+# %% Status Checking
 def status_check(api_instance):
     """
     Check leetcode API status
@@ -203,7 +204,6 @@ def get_problem_list(api_instance, problem="algorithms"):
     return api_response
 
 #%% Get Question Detail
-from bs4 import BeautifulSoup
 def get_problem(api_instance, problem="two-sum", lang="Python"):
     graphql_request = leetcode.GraphqlQuery(
         query="""
