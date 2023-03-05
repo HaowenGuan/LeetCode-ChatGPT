@@ -1,4 +1,4 @@
-#%% Activate API
+# %% Activate API
 from __future__ import annotations
 import leetcode
 from time import sleep
@@ -71,15 +71,17 @@ def test_submission(api_instance, id: int, code: str, test_case: str, lang="pyth
         problem="two-sum", body=test_data
     )
 
-    print("Test has been queued. Result:")
+    print("Test has been queued. ID:")
     print(interpretation_id)
 
-    sleep(5)  # FIXME: should probably be a busy-waiting loop
-
-    test_submission_result = api_instance.submissions_detail_id_check_get(
+    result = None
+    # 5 Second While loop waiting for respond
+    while not result or result['state'] == "STARTED" or result['state'] == "PENDING":
+        sleep(5)
+        result = api_instance.submissions_detail_id_check_get(
         id=interpretation_id.interpret_id
     )
-    return test_submission_result
+    return result
 
 
 #%% Real submission to LeetCode, submission with be record
@@ -103,20 +105,21 @@ def submission(api_instance, id: int, code: str, lang="python"):
         problem="two-sum", body=submission
     )
 
-    print("Test has been queued. Result:")
+    print("Submission has been queued. ID:")
     print(interpretation_id)
-
-    sleep(5)  # FIXME: should probably be a busy-waiting loop
-
-    submission_result = api_instance.submissions_detail_id_check_get(
-        id=interpretation_id.submission_id
-    )
-    return submission_result
+    result = None
+    # 5 Second While loop waiting for respond
+    while not result or result['state'] == "STARTED" or result['state'] == "PENDING":
+        sleep(5)
+        result = api_instance.submissions_detail_id_check_get(
+            id=interpretation_id.submission_id
+        )
+    return result
 
 #%% Get Question Detail
 def get_problem_list(api_instance, problem="algorithms"):
     """
-    Real submission, will be recorded to leetcode account
+    get the list of problem
     :param id: question id
     :param code: code
     :param lang: code language
@@ -236,7 +239,7 @@ def main():
     # Get Question List
     problem_list = get_problem_list(api_instance)
     
-    i = 2 # Selected problem index in the list
+    i = 1 # Selected problem index in the list
     # Select one of question (can use for loop to loop all questions)
     problem_slug = problem_list.stat_status_pairs[i].stat.question__title_slug
     problem_id = problem_list.stat_status_pairs[i].stat.question_id
@@ -265,24 +268,20 @@ if __name__ == '__main__':
 
 
 
-# code = """
-# class Solution:
-#     def twoSum(self, nums, target):
-#         record = {}
-#         for i, n in enumerate(nums):
-#             if target - n in record.keys():
-#                 # return [1]
-#                 return [record[target - n], i]
-#             record[n] = i
-# """
-# test_case = "[2,7,11,15]\n9"
-# lang = "python"
-# status_check()
-
-# status = test_submission(1, code, test_case, lang="python")
-# print(status)
-
-# status = submission(1, code, lang="python")
-# print(status)
-
-# output = get_problem(problem="Find-the-String-with-LCP")
+#%%
+code = """
+class Solution:
+    def twoSum(self, nums, target):
+        record = {}
+        for i, n in enumerate(nums):
+            if target - n in record.keys():
+                # return [1]
+                return [record[target - n], i]
+            record[n] = i
+"""
+test_case = "[2,7,11,15]\n9"
+lang = "python"
+api_instance = setup()
+status_check(api_instance)
+submission_result = submission(api_instance, 1, code, lang="python")
+#%%
