@@ -50,82 +50,6 @@ def status_check(api_instance):
     )
     print(api_instance.graphql_post(body=graphql_request))
 
-
-# %% Developing
-# from time import sleep
-#
-# graphql_request = leetcode.GraphqlQuery(
-#     query="""
-#             query getQuestionDetail($titleSlug: String!) {
-#             question(titleSlug: $titleSlug) {
-#                 questionId
-#                 questionFrontendId
-#                 boundTopicId
-#                 title
-#                 content
-#                 translatedTitle
-#                 isPaidOnly
-#                 difficulty
-#                 likes
-#                 dislikes
-#                 isLiked
-#                 similarQuestions
-#                 contributors {
-#                 username
-#                 profileUrl
-#                 avatarUrl
-#                 __typename
-#                 }
-#                 langToValidPlayground
-#                 topicTags {
-#                 name
-#                 slug
-#                 translatedName
-#                 __typename
-#                 }
-#                 companyTagStats
-#                 codeSnippets {
-#                 lang
-#                 langSlug
-#                 code
-#                 __typename
-#                 }
-#                 stats
-#                 codeDefinition
-#                 hints
-#                 solution {
-#                 id
-#                 canSeeDetail
-#                 __typename
-#                 }
-#                 status
-#                 sampleTestCase
-#                 enableRunCode
-#                 metaData
-#                 translatedContent
-#                 judgerAvailable
-#                 judgeType
-#                 mysqlSchemas
-#                 enableTestMode
-#                 envInfo
-#                 __typename
-#             }
-#             }
-#         """,
-#     variables=leetcode.GraphqlQueryGetQuestionDetailVariables(title_slug="two-sum"),
-#     operation_name="getQuestionDetail",
-# )
-#
-# # print(api_instance.graphql_post(body=graphql_request))
-#
-# # Get stats
-# api_response = api_instance.api_problems_topic_get(topic="shell")
-#
-# print("Stats of this session")
-# # print(api_response)
-# print('skip stats')
-
-
 # %% Only Test given test case
 def test_submission(api_instance, id: int, code: str, test_case: str, lang="python"):
     """
@@ -312,7 +236,7 @@ def main():
     # Get Question List
     problem_list = get_problem_list(api_instance)
     
-    i = 0 # Selected problem index in the list
+    i = 2 # Selected problem index in the list
     # Select one of question (can use for loop to loop all questions)
     problem_slug = problem_list.stat_status_pairs[i].stat.question__title_slug
     problem_id = problem_list.stat_status_pairs[i].stat.question_id
@@ -340,7 +264,7 @@ if __name__ == '__main__':
 
 
 
-# %%
+
 # code = """
 # class Solution:
 #     def twoSum(self, nums, target):
@@ -362,4 +286,3 @@ if __name__ == '__main__':
 # print(status)
 
 # output = get_problem(problem="Find-the-String-with-LCP")
-
