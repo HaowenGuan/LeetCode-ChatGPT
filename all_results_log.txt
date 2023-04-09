@@ -1,0 +1,2419 @@
+{'debug': True,
+ 'end': None,
+ 'index': 0,
+ 'print_results': False,
+ 'root': '.',
+ 'save': '.',
+ 'start': 0,
+ 'stop_early': None,
+ 'test_loc': 'test.json'}
+2
+./all_codes.json
+./all_codes.json ./all_results.json
+
+
+problem path = APPS_test/0000
+
+Testing solution 0
+start = 17:42:42.882405
+test cases json = ['|[a:b:|]\n', '|]:[|:]\n', ':][:\n', ':[]:\n', '[[:]]\n', '[::]\n', ']:|:[\n', ':::::]\n', '::::]\n', '::[]\n', '[]\n', '[a|[::]\n', 'dsfdsfds\n', ':[||]:\n', '::]\n', ':::]\n', '[||]\n', ':[[[:]]]:\n', '::]::[:]::[::\n', '[:|:]\n', '[::]aaaaaaaa\n', '[[::]|]\n', '[::::\n', '][\n', '[||]][[]\n', '][k:\n', '::|[]\n', '[:\n', '||||\n', '||]ekq\n', ']:|||:]\n', '|||[|||:[m[[n[[[xuy|:[[[:|:[:k[qlihm:ty[\n', 'aaaaa[[[[[:[[[[a]]\n', '[hellocodeforces::]\n', '[::]lolxd\n', 'sasixyu:[[:||ld[:[dxoe\n', '[:|||:\n', 'topkek[::]\n', '[[||]]\n', '[\n', '|[::||::]]a\n', ':]\n', ']::]\n', 'r|x\n', '|\n', ':][:|||\n', ']]::[[]]::\n', ']f:|efw][jz[|[[z][[g]i|[\n', ']::[\n', '|:[[][:cv|\n', ':y]j]tz:e[p[\n', '::::\n', '||\n', ']|[hhf[\n', 'abide\n', '|c[]][zx]|[[[[j[::nx[|[:ou[u]\n', '|:]\n', ']:|:][:||:]\n', ']:]\n', 'd[\n', ':|:]\n', 'k::]k|iv|]|g[|r[q:|[:[r[cj]||mjm|[|[|[|:[\n', ':|f[|e]e:|\n', '][:|:\n', '|rh]|[|:[v|||||i\n', 'y:[|[]b[][ug|e[\n', '[:::]\n', '[:]:[:]\n', '::]]:::\n', '[:||:|]\n', 'd]k[[::[||[:tpoc[||[:\n', ':]||haha||[:\n', ':]||ahaha||[:\n', '[][]\n', ':|]:::]]|:|||||]]]:|\n', '||:][:||\n', '|:][:\n', ']\n', '[:::\n', 'ss:]]n:w:kzxiwpdoce|d:]][:nmw|b:hs\n', '::][::\n', '[:tk]v|hd:h:c[s\n', 'md:o:|r:[uuzcov]wy]|[:[imwc\n', ':::]w\n', 'wd[]jcq[[]f|:\n', ':aj::pxblo]]]:o|x|:|]y:wn]:[:v:m\n', 'oeq]pp|i:[tan|][:ncsp::\n', 'm][js]x]a:l\n', '[:]\n', '[asfd:khj]\n', ':i:]f|cau\n', 'ljjjsv:h|]o:]k\n', 'aaaa\n', 'qj|]gd:i:::[|ur[e[e:]ay::k:\n', 'qod:|nw]sfr:g|::[]ajs:\n', ']zpgjpy:]:sz|[miz\n', ']ty:|:cjk::c:[[]tm\n', 'umfqrr::m]w]g::a|]|::]duhhxmzqs:gbo]br|xz|[g][ou:v[e[u|:y[||k:|[zqd:p:wf:a:gb\n', ':j:]xp:pnyh\n', ':]|[:\n', ']h:y[u:bg\n', ':am:trjm|]e[[[vm[:|pv\n', ':[||||||]:\n', ':|[:qw[|:yr]c:p][]|n:qql[ulp:ph:|||adcg\n', ':a::[vd|vwq|r:][]:|::\n', '|v]efoi::b|ov]:]|||:vk[q]is|[]|ku|]||wk[[|[q::]g|\n', '[w:||j:iiasd]gz||o:yw[::b::[[[m[oe[|oh]jh]:yjwa\n', '||::k[is|m|]|::i\n', 't]g]ney::]hca]:|]|\n', ']g[:]|u[d]\n', '[:[|][\n', ':]g|||yoj[:[h]]yys]u:iz:|rn|[:oc:|:[a|gns:||:hkr[idkx|\n', ':n:[mb|cb|\n', '[e[]|s:ml:|q[gh[[:anpd[|::[\n', ':\n', '|f||]:ng[]j:]::gc\n', '[x|[:l::hc[\n', 'em]]|:tu:cw::d:ralw|[]l:f::c\n', '|]\n', '|kjw:j:]y\n', '|[[fu:j\n', ':b]l]byp]avhswotk:f[r]:k:::\n', ']c|z||]cya:|yny]]q|g]q::h:|ff]q|jx::]:|]c]:||::rfr]o|hbgtb\n', '|]j:k[su:b|\n', ']]s:|f:ho::s]p:|]]]sd\n', 'okje|:e:ti]yl|[r[x]|gt]zgzz[:[]:u:i]:ctml[]w[u:f]]:ltc[n:[k:[g:wdh\n', 'a|xg]:mv]:[:::p\n', 'y|:]:j[|\n', ':rr]a[m]g:[m[e::[f:my:[[::h:]:]q:h[tf[o]nj[j[c:\n', '][:[:[\n', 'aaa:|||:]\n', 'cyzha::al:zc:o]s\n', '::h]go]\n', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[\n', 'sa:|cas|[::oq[sn]m:::h]e]dbjh:lllafnt|xly[j]:r::euta|fs[hw[h[[[i\n', '|:[]\n', '][reerf][ybn[g]|i:q:]:[|:]b:xt[\n', 'k[h]|a|t|m]mwba[\n', '[||::]\n', 'b\n', ':|xm:f:b[[|:w]t[[[ht\n', 'qyx::ti]o]|\n', 'vl::r]i|y:]pi:yicacsqm|:sy|pd:nwu::r|iib]goq\n', 'af:r:gett|]t:x:f|iqdo]bm]:[w::x|]:pe:[[\n', 'v[t:[q:tmrwta\n', ']:v[|\n', 'cl|dyisv::|hn|:fgdm][z[e\n', 'w]]::|zc\n', '|trrxb|]|z:t]s|]v|ds]u:|c:z|f|m[]bowp\n', ':z]gr[|uvm|ngodriz]f[c]|lfxqg|p]bcoxrfv:k:r::[m|\n', ':]o[|]]|t::::]w]:[:|:ro|a::ged[slr:kug:::rww:ei:|m::ah|cwk[v\n', 'yx:tx::dqpl|:::]l|]j[y[t|d[:elr:m\n', 'd]sp]|d]::|\n', 'q|dlfohjzs]:[jnuxy|[]||::]u[[j:\n', ']s]:[co|]m:y:njby\n', 'fmnu|n:ynz:|::hk::|::]|]l::|\n', 'aaaaaaaaaaaaaa[\n', 'f|gzg::cl]\n', ']x\n', 'tc|:]ekb:tu\n', ']ujn|]|]j|o|:q:|r:a:u:::sv:]ffrzo\n', 'tuyut]j:[u]|ft||:]houmvj[yh:[::f\n', 'n:]:][|gpxex|qw[\n', ']gy]]fd|bd::ph::j[]]jc|eqn]|lj]:s|ew:c||:[gksv\n', '::p:oqv:|:\n', 'os::a]un:k||ri:n:d]:who|]urx:yat::]|lm:m]q]iua|:s[g::]|:\n', 'uy|dzq]dkobuo:c|]]c]j:|]wtssv:|:lkn][sb[dw::|m|z:\n', 'euj|eip:[bgqn[bjmivsxd][j][[[]dsk:y\n', ']:||k:]sf::[::|yn]:xv]pg[|q[]:[wpv:|y\n', 'clpy::||:fs||[w]]::||\n', 'u:ft:]|c]:q\n', 'rr::m[]|:j:uq[:t|[:trxbtq:|hj[rf\n', '[h[|k|[hb|\n', ':|e|o:]g:[:w\n', '::]:asl:\n', 'z:::e|r]j|n]|:f]]\n', ':ml|r:qm|:n]b::|:]]trak:ku]:::k]\n', ']zp\n', '|wu[ehma]]ced]d[f[m][]b]:|:|::|fbz\n', 'uyme:|oew||mvo[[|e]\n', '|zh]|]dmg|]:rtj:r|]:\n', 'kj:t[|[|oph]qt:h[rq[[bu[|]m|:||[hvh[\n', ':[p|vg:[|:nu[:olj::p[o[qr[ltui\n', ']|pv:|[|d]][:|ddhn::n|:\n', 'fud:e:zmci:uh]\n', 'd:x|]:::\n', 'lovs:iq:[][[k\n', 'xf::osgw:kmft:gvy:::]m\n', '|hb:qtxa:nx::wnhg]p\n', ']:]:fcl|]a::::[z|q[|jw\n', 'np|:]q:xlct[|]hw:tfd|ci:d\n', 'nl]nz:][tpm:ps[jfx|:tfzekk\n', 'e:n|al]:i|hss:c:|v|b[u]efg[]k][u||vv:ma:ytgw:fjv|ve\n', 'pw:m|qu:|[gb[:]liv:an:oj:cavwjk[dxr:|po:ny|hu:mawqxv::[::\n', '|]:i:|[:[q|x|lmetc[|:[|c:\n', ':z::vy[lcyjoq\n', '::]v]\n', ':wr|ze]d:wt:]]|q:c[::sk:\n', ']::|]:[|dob|]ke:ghk[::uxycp|:fh:pxewxaet[\n', 'jf:]e:i:q]|w:nrk:hvpj|m]:\n', 'vhbato:s|:]vhm:o|n[hfj]pgp|bs]d|:cxv\n', '::b|zltkdkulzx[]ocfqcmu::r[::s\n', ']fq|m::|[zk][:|::hxy[u::zw|::n|a\n', 'b:|xjehu]ywpi:|][ye]:[:[:\n', 'q:wdd::i:]\n', 'v::mp:l::[x]:w[[ehu\n', 'g]:kobbxo:[dy]:daz[[|eqe::|\n', 'vz:naw[:d[][f[[wgzdki]|ct[::[yh|w|bgxd[x:q[[zm][i:r[r|[:a[][|yx][r|:\n', 's::dul::i[mwln:it::[|g:eh:xs|ew[bp|g]ak|ems:|:gydoq:[dg:]]:qr|[:[p[:q:[i[:]:k\n', ':][]||[|:|\n', ':n[]ncg\n', 'j:m::|:||]u:[v|z]]:\n', ']:svzta[|ey|s|oi[[gmy::ayi]\n', ':[|]did:]p:[|::|olz[:albp[[k:|||\n', '|::|]:|]|:\n', ':|q|x]zt:]:kw:cs|fn]]jadp|cq\n', 'ka:|u:|omvu:scrjwzt|]e|[[|k:h:we]::ou:]bxq|][dv:\n', 'mas:]c]a::a:[g:tiejt[rvh:zz::qwufm[\n', ':k:::g|y]b|c]qwva|::v\n', 'sn::zeno:[ft]l|y|m|[||bz\n', 't:nwkx:wg:x|:vr]|uk[[|]x|:gz:\n', 'ym:dvmmajd:t]|[hqx]d:l[\n', '::[da][ik]]v:i\n', ':|yyu]:[lj|aa[]vfenav[:ji|\n', 'gt:|]|k]:|[hikmw|hz|a[\n', 'z:::]oqatxzhf:gdpr]:]:ls]art[zq\n', ':o:]]u:evfw::]:c::gdu[lus:ej:[|:ruam:\n', ':]::k]d|:hx[]pop][:::u[s:o[\n', '::sry]\n', 'y:]:[[i]iy:\n', '||j:]::x|:f:l\n', ':]]:d\n', 'l]b:][::]]z|ysyifc[:s|ag[hngo|:x:rhqn|ru\n', '::q:ghi]:y:gtl:o:|:\n', '|j::lq:ot[]]c[|]|y[bxxqgl[]]]l[g:[|dg::hl:c\n', 'yk:t:ez|b:i:ze:[mt[[[]ochz:\n', '[iy]u|bdr\n', ':|stnr|t:x:oa]|ov[v]::jv[]to:[\n', '[a|u\n', '::|]]\n', 'sv:sxjxf]|::]bij:]:okugd:]qlg::s:c[|:dk\n', 'pfk[w:ow[|zz:|e::|ovvy:|y:vndh:::i:d]|[[qyn:::[||::]i:|:|]abb:ut]dxva:]ppkymtk|wyg:divb:[[l:c[jy|\n', ':rv::::lybr:|e:e:|iqtzgd::xhw]l]]:[aqa]d]:my[]]uo:d::s[a[:[[\n', ']|rhs:p]:z::t[|vfr]]iu[ktw]j||a[d::ttz|ez[[:::k\n', 'rw|oe]gq]mv:]]:]:cb:s:z|:]]:g:eri\n', ':|][|]jknnx]f[w|n|\n', '::]t:np]:n]|jkn]:jy:|:c:]]]t||k|sm::c\n', ':|[u]]ncc::[e:|][]l[][]p:un[w:cr:fa]dnud[tx:gz||so|||]j[wpr]b:ik:ulm[nab::u:yoo\n', 'vu:]|ar|q|mwyl|]tr:qm:k:[|::jc]zzf\n', 'lvyn]zm:q:vcg[:]n]jzhmdi\n', ']:l:|]mm\n', 'z:qqh|]k\n', ']wsjx:p:hwk:ckjnb]js:w::|:|r:e]r|j]x\n', ':]k:vkb:]]]|]ciljah:bc\n', '[qf:d]nvex|i|n|z[z]]gsw:pnnc:lw:bofpt\n', ':]y:qc||tg|::y[::[[l]xceg:|j[edpf[j|:bmy:\n', 'rszfx:pf|h]:e:wi[\n', 'r:::xez:y]nrt:\n', 'd::fftr::u:kug][ea:tu:ari][\n', '|bvff||:m]:|i|::p|[\n', 'a:]a[:\n', ']|]|]:::[]\n', ':::[||]|[]\n', ':|:][::|\n', '[||::||]\n', ']||:::]]\n', '::i|hack|myself::[]\n', 'm|:::|:z:n:]cepp\n', '::n::itzc:]:abfjlmlhubk[|::[hm:x[fg|b|:axss:r[c\n', 'c:m:xbw]m|[hm:oofub\n', ']wvihpdy::vn:]]:|hqiaigj[\n', 'omi]cb:s]kxzrjhi]:o\n', 'o|utkq|:j:]w:\n', 'abc\n', 'xil]x]:hhtlz|:k:t:[pdv|ne]jyy|:sbd::jt:::|jgau:|\n', ':]:|:]|]:]\n', ':]]|[fxy\n', 'q:t:|\n', ':cu:lrcc[a|mij][o]]:x:ej\n', 'sn:c:d]]|s]::e\n', '[gp[]\n', '||]tzs:|:]ta|jhvpdk\n', ':os|:hj:\n', '[|h::]]]qqw:dpp::jrq:v:[:z:[b:\n', ':c]:k:ugqzk:z::[]\n', 'gn]wmt]lck]::|yk]lbwbxw]:az:|:ln::|b\n', ':lmn:gs|muauf[[p]:xjoo:|x:lsdps:go[d|l|\n', 'sw|]:|::x]ff\n', 't:b:[d:vzei[||e|uo]]\n', ':l:::ha]]:g||t:]:ky||dbl]:]:q:m||g:]ta\n', '::::[|:|::\n', ']]|[k:f]||t]wg:b]]:[o[|e]hroomwxdph]|u]::[j[h:b|[mr:dn[|n[[yxoh:tf:[a[||[:::|dz\n', '[p||yi::u:::r|m:[\n', ':kew:u]blgozxp:::]a]tp|g\n', 'wsn]:ig::||:fc]v|t:yn:uaurphuj|]r|uut]:::]n]:e:pg]]]wb:]]:o||:d:p[::|:]g:k:wxcg|c[:k|w|||]mcy\n', ']up::]dcte]|ldnz|t:|]|iao:r:|v]\n', ':[nt]|::q:ant|xijg\n', 'r]:kxu[][qe[:y:x\n', ':z]|[[w]:\n', 'og|:]vxfpmq]]ax]zvx:::hm:htnicv|:hs:]ptpc[j|t]d\n', ']g]sl:pqsqy:b::]rj:jl]]|n:y]:\n', 'ejwmbu:fqkp]eb:]\n', 'xq]|mnn:\n', 'gsl:]o:|f[e][wxmg[nlbn[\n', 'dt:]y:jta:zu]dwxq|ki\n', 'zr:s]ocaf:|ruqd:::|lbek[:y[gb::k|y:\n', 'n:]m]e|]:wr:iny:s]or]o:o]|:]]w|g]pp|ff\n', '::y:qjf:am]]]n]xrghkm|::|\n', ':||l]::||:son|::]pq|]]w|:y|]n:\n', ':]j]pons\n', 'qks]b]wtqjih:d]]jjz:|]:|i:[]b::\n', 'l:vw|v|s|:ei[]jc\n', 'jyflberp:et]q:x]:n|ww:f:d||c||:aq|:\n', ':s]::]p|\n', ':w:\n', '|i|:]:p\n', 't]c:[[qt]t::v:x:|[::vaiejt|h\n', ':eiiup]tldk\n', 'v:j]pajb\n', ':x|b:i[d]\n', '[d:eest:t|w|cy\n', ':ff[::[|lsfp|k]a[x:f\n', 'bk[kl:|tybma:vb::k:\n', '[:pu::[dgl[z[g||e:t:e:o|:mhxn\n', ':jg|ift[mp|[:\n', 'x::vv|d|knrx::[h:]hi[]co:ukn[[|[|:ezb\n', ':c:ojn[[|[p]lr\n', '|fu]s:]:uvra:x:wu|:\n', ']u]gam|y:hdql]x][ap[hae[lb[bi[czzd:fmdho\n', 'hdc:ytu|b]]:t:qms|gkwc:zf|:[kf\n', ':]pmz[x:\n', 'ty||gbbe:fnga::]|m]z:][c:a[:|ijl:orl::b[t\n', 'f]mbz]mvz[[sb:j:qi[hhp:\n', '|ryv:[c:::[t:\n', 'yi|ycel:]]]iybr|spac[]:k\n', 'j::]\n', 'gugw|:q\n', ':uve:jp|n|:]]:g::]:ciygwdj::\n', 'khr:vri]n]m|]vn:rn\n', 'm::\n', '::[[l|[nv]q\n', 'ezz]:||sdv]:ucb[:[|oh|bm::::cgzl\n', 'ek|\n', ':p|:rpv::r:h|]:\n', 'kfcw::]]::f]mx]ecmc|:o:]||k:]jghys|\n', 'c[:mke:::\n', 'gofpok]]]w|[][v:h[ya|:ocm|q:\n', 'az:]:d]|:|:|o|:::::|j[q]]tid|pb]nxi:c|\n', '|:a:ypw|v:jovg[u:hb\n', ']|m|:|:w:|k|bi:ex]o]][mtz|ciy[]u[|[|][]o]lmy::|sde]sl|:|:dufv:le\n', ']fv:w::mfi:::q]::[|d]dao::|i]|cnt[u]:\n', 'g|t:]l]w]]]x|q]jf[[[div::it:t\n', 'cbk]i::bk|mo:][[|]]x\n', 'fpxbk::se|fz:z:t:|]p]:\n', '[v:vv[ds|pz|:|\n', 'am|::s|q|]x\n', ':fiv|qz|xl::mjbt][i\n', '::|o::r[x|o][lmt[wo\n', 't:]iu:fo:e:w:]okrh][[vu|de]:::\n', 'd:s||||z:sp|:oq[iq[rx|uj[n]:\n', ':|]ezv:szl]pg|:||ao\n', '|jq]mf\n', 'z::[:rm|t:l::yotu]a|se[]:::y::[t\n', '|]bg]]::vwre::fgz:dnf:cemye|tw|]:p]\n', 'g:]c:[]f|yuz|r|:if:lf:\n', 'kl:\n', '|qe]|p|tcjp::m\n', '||b]h::x|]p\n', 'j::r:my|qml\n', 'z::]|vy:||:hs::]vm\n', 'nf:ve:ri:riubcmfx]ib]j:qqa\n', 'ne|s:jsa:pvl|sj[::]u]xbtr:|u:\n', '|o]:s||:y::g:rans::d]]|p\n', 'krm|l::|]asp]r:b:::[]qbq::p|:mi[:yrrwoa[zt\n', ']mz|::|sxnk:::z|:bp]ajueqi|ogkql]z:]\n', '[:r:::bpz\n', '[fkvy|f:zd::k:\n', ':]u::t:b:sp|zlq]:h::|::ad|:q]f::]::n]m:::::[el|]kb][|dcdtfqs|]o:[:af::l:\n', '::]nd[[|][zac|x[|::l\n', ']|agd:[|]dds|\n', ']::m:::::b:q[]tz\n', 'lsvs]qe]|ao]nzqojo::r]nl:w:gu\n', 'a[|]z|ec[e:l[i:yf[[:se:yy|i[toc|:[\n', '|][x]:rl::rl[f::l:::\n', 'w:c:foghy:n:|]:b::ud|rs[][ua:\n', 'kr|z:bd:h:]oa:y:|t]:vsx|]uo:|||\n', ':o:r\n', 'bx]y:xwo:::|]i:lz:]:pyp|sm:|]s\n', 'v][][f[f]y[kvlewloh|tdg:a|:\n', 'da:z::::f:|:oj]|t:p]:]yxnlnyk:[\n', ':goep]s:]nwm]:qt::r|::x\n', '[cm|nu:k]f]:qkjz|[k|b:\n', ']]:o::|:hj||:k]g:pgtq:eooo:]\n', 'tx::k]:f]pf|x:a:n:w:h]:youw:fajc:vcmi|dx\n', 'kmfk:teu[|dh]nvwx|]:mg::[d::uco:l[nqp\n', 'oh[i]fz[][:np:ea[y\n', 'jie::q]\n', 'w|exua:x:mgr[::zt\n', '|a:xqjra|]tyl:wpk|nav[:u:[nq\n', ':l::f:u]wmt:[rqjb|m::][[:[opi\n', ':|\n', '|p\n', 'sqsmoyj:l:|nze|:|r]qb::\n', ':z]:|znp::as:n:bk|:qsu:wm|[wm[hkh:ju[:y|::|||je|wyu[hi\n', ':rd\n', 'w:s:yg]::\n', 'w:]ca|i|ot\n', 'jb[n]:g[::s[\n', '|]aw[id:s]k:y|b\n', '[njo::|\n', ']]:u|::m::huhe:s::[ubrq::wa]ttp][]hwik\n', ']amqhe::r:xvu:i]|:o]j|gkf:hgf]wah\n', ':|[m:::[u::r[c\n', 'ri]qag:luidt:w]:g|j|hjua:\n', 'c\n', ']m::i:::n|ga]m|ai|kc||]:|x|tjjmr:f\n', 's|:[|j|[oouk:::h:|[x[:w|l:[\n', '::\n', 'vv:::[|f:y:|ke::vz:[:y[an|[b:::r:mdzl|:j:h]|s|ldmex\n', 'v:bkn:dwa[]::cv\n', 'o:y|:b|:|::]f:yyqg:oy]ezc:ggv::j:iyj:bqa]:|]r:k[\n', 'u:g:gt]\n', 'qgb:ym:]z|og]|:hu\n', ':[[|j]|yqdc[[f|]yv:thdmaw\n', 'n:yq:[|w|t[st:fg]d:uv[[bw:wgpy[:gnri:\n', 'kisy:s:vg:yc]\n', 'w:l[|:|tggqs\n', ':o:y||f[[no]:a:ge|[v|:gw|f:u[[\n', 'g|]uj\n', 'pm]e:h:|j]dts]][sl[ekt]xt|zmx:k::x:d[\n', ']twgo[mu:xf:[||e|:l|a|:\n', 'h:q::|zyh:b:]hpv[yf]pp|v]:y:j\n', ']::[u:[w|v|:qu[[[n:\n', 'p]j:]n:\n', 'wa\n', 'lu|v|fs:gow]:ct[ppm]pii::[z|:\n', ':e]h:]]::|]::]j|[s]]:[my::\n', '[x:[r:b[|\n', ':[sy[b|[|]]|]n|a[]tpa:::\n', 'ntp]y|w:]v]|\n', 'z]w:dc[dq][[]l[|||p]]ealr[m[evn:o\n', 'hxl:|c|]omqt:jeey|kjyz:nphi::[v[c[::dunu]lf\n', ']pbs|::g:tvu]|:\n', 'r::t:|:oezsfj:|]sjn]k|][][]t\n', 't:::c:oyh:]:\n', '|d]|v\n', 'p|:[w|[t]||]|[y|x|as:q|o|zbn|zkyr|q:|eu[ll::mq:[j\n', 'd]w|g:bt:k:]tzzija[]:t\n', ':::drl:|fv::rn:q[]nq\n', 'y|::f:]]:p\n', 'u:ypnp:a::h:yqtome|kjsa:]|:rsotcg:]xcq[vvx|]]e\n', '::l:g\n', 'wl\n', ':r:]z:\n', 'e|v|gh:::d]|d|]d:fs]\n', ':l|kj|:sli::r:]g:yt|]:h[:::tl|hb:r\n', 'n:::[::[gwy\n', '::qa|v]|m|::|[nu]:||:fy::[p:af:e:qj|\n', 'f|c\n', 'qq:|:f|o:g:ra[||]q\n', 'l[b:|[toa[g]qn\n', 'p:]dr]kt]t:]f:f|::s]ic]mzz:\n', 'jp::l:[pyv]t:a][]::j[k:dmdc|:e]bjzp|pl[:[[::f|jo:nzu:pu|ndvpte:||\n', ':wt:nt|la:p|]:k[acxydv[][]|]e::|v|i:\n', ']|[|zja::|g|]d:t::gawk|j|rfcada|qfkg:hi\n', '][mm:mqraj:\n', ':]|l:dgb::::]:]wrt\n', '::k:c:tjg|h]:\n', 'vpl:::]owzt[:\n', 'djt:::bfkl:q:ls::[]kfgpgit[k[|c:\n', 'r::uh]][j]bfqsn[:[|s|:kqz:|p[bl::x|\n', 'y:::\n', ']lx:rjzff\n', 'ptbb|]d\n', 'b|::b:g]]||:]nm[yrpf:t][]tzjy|:xm:q:\n', ']::::uk:l:l:cl|]|:mbmqn\n', ':x::]\n', ']uwfhq[uz[y::fi[:[egg:p\n', 'aa|:]w:lzf:zgw]:]|:ek|bq||d]h:]aq:n:o:]s]m]\n', '|::]\n', 'pky::t]zyx:||stu]tjt|:|v:[axhm[:ny|\n', 'ld]]ngmi:c|tqo:v:]|]h:l\n', '[|::[aqj]]cz:l[||::\n', ']d]ph:pm]||ytyw:[t[|wgx:tbagh:v[l:kpsuo|pcp\n', 'do]|]c[]ad|[adzbqjz]\n', ']qrt:]no]|::][]d:p]:iwl::[ud[|s:r\n', 'mg|[]:[kla[[a|[z\n', '|:g[jv]ep]ln:|xnbaf\n', 'eeps]|rizigx:]\n', '::j]]]t|s:j]:bdzikd|zi|[kx]][:[lw:||mdnlw\n', 'zuf::z::w]pkf]fu]vz\n', 'icpw::k:x:wu|t:kq:ln]:|bdhiwu\n', ':[zie]|avb[qvl\n', 'fur|z][[][w:\n', '::cy::::iry]|m:coi[]o|[bi:z[:s:p[:gcwh::::\n', ':]jpb::]|[ifu|yb]::l:|kt\n', 'b][[[hk[\n', '|x:]::ultgj|e:t:]z\n', 'fh]]||:medq:]:|\n', '|:zwi|i:\n', '::dd:qj[g|s[:::]yemb]lo::\n', ']:p]b|s]e\n', 'fa:]|:qzhby:l]wazenq]de|x::::td[]|:s\n', 'm:wpuz:\n', 'dwx::::g:pi|r|bf[fxtvwk|z]|x|\n', 'pcn|]t|]|y:rl]]:|u|y]y:h:g|x\n', 'hfdm]]w:ldlrp|t:|:wje::]fw|k:|[snyj\n', 'e|:b]][]u|cv[rpypk:g[:gb:\n', '|zb|nd:|v\n', 'fuip:pvl:c[]::t::[x::f|f:urz\n', 'lr]b:]:]:|]|x|yiac\n', ']:]ty]l|c]]rkk\n', 'g]:c]etg\n', 'icx:q:]:|k|a]\n', ':]:|j|ehb]d|kqro|gdc:f:jbc|||v:gocskgf:|a::kmhv:ffwu:|qo:]v:y:igkm]:i|v|i|on\n', 'xx:|o[vu]yp[]ew[l|::::x[t::\n', '[[[[[:|\n', 'rmcq]w[wu\n', 'k|\n', 'c:hn:|:|qiyse:o::[pp]fn:b\n', '|]l|gj]:p:u[]hv:\n', 'r:xa::::fc:|]v|n|:axl\n', '[]|ccgd:mn|:\n', ':[::]\n', ']lj]vz:::y:::t]\n', ':]:un]v]]]cuy:w[|vms]hbnh]z[y:eru|el[[::iw[f[[:r:[w[][fezx\n', ':e:vvq:]u]]\n', 's\n', ':e||:|::[|:[|l\n', 'f]|g:lxm]:|[[:[:whcklc|cdan|[|oi[me[\n', '::ew:]]::d[][::c:[:ox:jv::b:b:\n', ':]|tue][rs]|x::u|]t:t:|vo|[ax[:|yomhn::bne\n', 'z\n', 'i::fd\n', ':sv:iro|]:zfvpwa:|ug]||v:\n', ':]:]\n', 'n|]:w:bl|:j]:\n', 'z]]]r]goiqy|x]h:|s]:tof|tm|rdd::x:]l:hg:gt::]|mru]tn|:h|\n', 'oenfnemfddbhhmig]gcd:]:mnnbj::f|ichec:|dkfnjbfjkdgoge]lfihgd[hooegj||g|gc]omkbggn:in::[dim[oie:nbkk]lfkddm:]cmjkf\n', '[lqd]v::|e\n', '][i::[][gq:::|:g|n:gt:\n', '::]z]:|:x|:b:|[][w||]j[|oxjf[oo::urc]\n', ']w:q]a]n:p:hb:rt:|pqe|]ze:]z:::b]::c[::jj[r::dw|kbe\n', 'bb:]ranrc:s:qmrcw:atzl:]im|eg:du::j::::b|]]\n', ':[:]::\n', 'u|::kepn]pr]a\n', 'n|:f||f:|xabqx]zj:nd|]vl\n', 'pwnseq[::[ajk]y:e:\n', 'aeo:wg|t:]s|:][[f]iczvk:boe||plg:::::::\n', 'a]::]:nk]:cppyut]wb[g]\n', '|g|jwpdzh:s:]::qp|r\n', 'yj|:du|mg:c]jn\n', ':||:]\n', ']a]:pt]]iid:g:]:rfl\n', 't::u]|]::]:]d:]|wf|r:|:[\n', '|a|:r:]]:m]:|a\n', 'w::||[\n', 'o|:]]|d:y:x|jmvonbz:|:|]icol\n', ':[]f:\n', '|:[]a\n', ':::]|||[:::\n', 'aa::]\n', '||::]\n', '||:]\n', ':||||||:]\n'] ['4\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '5\n', '4\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '4\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '6\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '5\n', '-1\n', '6\n', '-1\n', '-1\n', '-1\n', '5\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '4\n', '-1\n', '6\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '5\n', '-1\n', '4\n', '8\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '5\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '5\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '8\n', '10\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '13\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '5\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '6\n', '-1\n', '-1\n', '6\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '5\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '7\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '5\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '5\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '4\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '4\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n', '-1\n']
+loaded json = 17:42:42.882996
+loading test code = 17:42:42.883022
+sol = import sys
+import time
+import itertools
+from itertools import accumulate, product, permutations, combinations
+import collections
+from collections import Counter, OrderedDict, deque, defaultdict, ChainMap
+from functools import lru_cache
+import math
+from math import sqrt, sin, cos, tan, ceil, fabs, floor, gcd, exp, log, log2
+import fractions
+from typing import List, Tuple
+import numpy as np
+import random
+import heapq
+from heapq import *
+stdin = sys.stdin
+stdout = sys.stdout
+def code():
+	s = input()
+	n = len(s)
+	ind = -1
+	f = False
+	for i in range(n):
+	    if s[i] == '[':
+	        f = True
+	    elif s[i] == ':':
+	        if f:
+	            ind = i
+	            break
+	bind = -1
+	f = False
+	for i in range(n-1,-1,-1):
+	    if s[i] == ']':
+	        f = True
+	    elif s[i] == ':':
+	        if f:
+	            bind = i
+	            break
+	# print(ind,bind)
+	if ind == -1 or bind == -1:
+	    print(-1)
+	elif ind >= bind:
+	    print(-1)
+	else:
+	    ans = 4
+	    for i in range(ind+1,bind):
+	        if s[i] == '|':
+	            ans += 1
+	    print(ans)
+	
+
+get method = 17:42:42.886237
+time: 17:42:42.886244 testing index = 0  inputs = |[a:b:|]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:42.890369 testing index = 1  inputs = |]:[|:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.891738 testing index = 2  inputs = :][:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.893090 testing index = 3  inputs = :[]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.894396 testing index = 4  inputs = [[:]]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.895705 testing index = 5  inputs = [::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:42.897005 testing index = 6  inputs = ]:|:[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.898817 testing index = 7  inputs = :::::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.900063 testing index = 8  inputs = ::::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.901296 testing index = 9  inputs = ::[]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.902561 testing index = 10  inputs = []
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.903799 testing index = 11  inputs = [a|[::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:42.905066 testing index = 12  inputs = dsfdsfds
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.906967 testing index = 13  inputs = :[||]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.908189 testing index = 14  inputs = ::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.909425 testing index = 15  inputs = :::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.910647 testing index = 16  inputs = [||]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.911877 testing index = 17  inputs = :[[[:]]]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.913143 testing index = 18  inputs = ::]::[:]::[::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.915022 testing index = 19  inputs = [:|:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['5'], test outputs = 5
+
+time: 17:42:42.916249 testing index = 20  inputs = [::]aaaaaaaa
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:42.917513 testing index = 21  inputs = [[::]|]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:42.918753 testing index = 22  inputs = [::::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.919967 testing index = 23  inputs = ][
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.921219 testing index = 24  inputs = [||]][[]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.923092 testing index = 25  inputs = ][k:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.924313 testing index = 26  inputs = ::|[]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.925560 testing index = 27  inputs = [:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.926774 testing index = 28  inputs = ||||
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.927982 testing index = 29  inputs = ||]ekq
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.929231 testing index = 30  inputs = ]:|||:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.931095 testing index = 31  inputs = |||[|||:[m[[n[[[xuy|:[[[:|:[:k[qlihm:ty[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.932371 testing index = 32  inputs = aaaaa[[[[[:[[[[a]]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.933643 testing index = 33  inputs = [hellocodeforces::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:42.934864 testing index = 34  inputs = [::]lolxd
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:42.936073 testing index = 35  inputs = sasixyu:[[:||ld[:[dxoe
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.937334 testing index = 36  inputs = [:|||:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.939204 testing index = 37  inputs = topkek[::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:42.940426 testing index = 38  inputs = [[||]]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.941691 testing index = 39  inputs = [
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.942907 testing index = 40  inputs = |[::||::]]a
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['6'], test outputs = 6
+
+time: 17:42:42.944116 testing index = 41  inputs = :]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.945373 testing index = 42  inputs = ]::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.947432 testing index = 43  inputs = r|x
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.948773 testing index = 44  inputs = |
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.950025 testing index = 45  inputs = :][:|||
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.951243 testing index = 46  inputs = ]]::[[]]::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.952446 testing index = 47  inputs = ]f:|efw][jz[|[[z][[g]i|[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.953747 testing index = 48  inputs = ]::[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.964908 testing index = 49  inputs = |:[[][:cv|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.966282 testing index = 50  inputs = :y]j]tz:e[p[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.967548 testing index = 51  inputs = ::::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.968817 testing index = 52  inputs = ||
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.970059 testing index = 53  inputs = ]|[hhf[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.971279 testing index = 54  inputs = abide
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.973091 testing index = 55  inputs = |c[]][zx]|[[[[j[::nx[|[:ou[u]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['5'], test outputs = 5
+
+time: 17:42:42.974375 testing index = 56  inputs = |:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.975605 testing index = 57  inputs = ]:|:][:||:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['6'], test outputs = 6
+
+time: 17:42:42.976806 testing index = 58  inputs = ]:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.978012 testing index = 59  inputs = d[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.979186 testing index = 60  inputs = :|:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.980385 testing index = 61  inputs = k::]k|iv|]|g[|r[q:|[:[r[cj]||mjm|[|[|[|:[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['5'], test outputs = 5
+
+time: 17:42:42.982350 testing index = 62  inputs = :|f[|e]e:|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.983576 testing index = 63  inputs = ][:|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.984789 testing index = 64  inputs = |rh]|[|:[v|||||i
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.986004 testing index = 65  inputs = y:[|[]b[][ug|e[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.987199 testing index = 66  inputs = [:::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:42.988403 testing index = 67  inputs = [:]:[:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:42.990263 testing index = 68  inputs = ::]]:::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.991464 testing index = 69  inputs = [:||:|]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['6'], test outputs = 6
+
+time: 17:42:42.992666 testing index = 70  inputs = d]k[[::[||[:tpoc[||[:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.993856 testing index = 71  inputs = :]||haha||[:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.995048 testing index = 72  inputs = :]||ahaha||[:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.996260 testing index = 73  inputs = [][]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.998200 testing index = 74  inputs = :|]:::]]|:|||||]]]:|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:42.999401 testing index = 75  inputs = ||:][:||
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.000601 testing index = 76  inputs = |:][:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.001793 testing index = 77  inputs = ]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.002975 testing index = 78  inputs = [:::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.004170 testing index = 79  inputs = ss:]]n:w:kzxiwpdoce|d:]][:nmw|b:hs
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.006043 testing index = 80  inputs = ::][::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.007244 testing index = 81  inputs = [:tk]v|hd:h:c[s
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.008441 testing index = 82  inputs = md:o:|r:[uuzcov]wy]|[:[imwc
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.009642 testing index = 83  inputs = :::]w
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.010832 testing index = 84  inputs = wd[]jcq[[]f|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.012024 testing index = 85  inputs = :aj::pxblo]]]:o|x|:|]y:wn]:[:v:m
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.013932 testing index = 86  inputs = oeq]pp|i:[tan|][:ncsp::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.015140 testing index = 87  inputs = m][js]x]a:l
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.016344 testing index = 88  inputs = [:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.017536 testing index = 89  inputs = [asfd:khj]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.018728 testing index = 90  inputs = :i:]f|cau
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.019929 testing index = 91  inputs = ljjjsv:h|]o:]k
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.021812 testing index = 92  inputs = aaaa
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.023025 testing index = 93  inputs = qj|]gd:i:::[|ur[e[e:]ay::k:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.024219 testing index = 94  inputs = qod:|nw]sfr:g|::[]ajs:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.025422 testing index = 95  inputs = ]zpgjpy:]:sz|[miz
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.026615 testing index = 96  inputs = ]ty:|:cjk::c:[[]tm
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.027833 testing index = 97  inputs = umfqrr::m]w]g::a|]|::]duhhxmzqs:gbo]br|xz|[g][ou:v[e[u|:y[||k:|[zqd:p:wf:a:gb
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.029700 testing index = 98  inputs = :j:]xp:pnyh
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.030966 testing index = 99  inputs = :]|[:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.032150 testing index = 100  inputs = ]h:y[u:bg
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.033395 testing index = 101  inputs = :am:trjm|]e[[[vm[:|pv
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.034591 testing index = 102  inputs = :[||||||]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.035809 testing index = 103  inputs = :|[:qw[|:yr]c:p][]|n:qql[ulp:ph:|||adcg
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['5'], test outputs = 5
+
+time: 17:42:43.037663 testing index = 104  inputs = :a::[vd|vwq|r:][]:|::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.038916 testing index = 105  inputs = |v]efoi::b|ov]:]|||:vk[q]is|[]|ku|]||wk[[|[q::]g|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.040108 testing index = 106  inputs = [w:||j:iiasd]gz||o:yw[::b::[[[m[oe[|oh]jh]:yjwa
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['8'], test outputs = 8
+
+time: 17:42:43.041300 testing index = 107  inputs = ||::k[is|m|]|::i
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.042525 testing index = 108  inputs = t]g]ney::]hca]:|]|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.043761 testing index = 109  inputs = ]g[:]|u[d]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.045612 testing index = 110  inputs = [:[|][
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.046806 testing index = 111  inputs = :]g|||yoj[:[h]]yys]u:iz:|rn|[:oc:|:[a|gns:||:hkr[idkx|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.048000 testing index = 112  inputs = :n:[mb|cb|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.049187 testing index = 113  inputs = [e[]|s:ml:|q[gh[[:anpd[|::[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.050385 testing index = 114  inputs = :
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.051627 testing index = 115  inputs = |f||]:ng[]j:]::gc
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.062601 testing index = 116  inputs = [x|[:l::hc[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.063938 testing index = 117  inputs = em]]|:tu:cw::d:ralw|[]l:f::c
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.065163 testing index = 118  inputs = |]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.066373 testing index = 119  inputs = |kjw:j:]y
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.067581 testing index = 120  inputs = |[[fu:j
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.068786 testing index = 121  inputs = :b]l]byp]avhswotk:f[r]:k:::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.070636 testing index = 122  inputs = ]c|z||]cya:|yny]]q|g]q::h:|ff]q|jx::]:|]c]:||::rfr]o|hbgtb
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.071856 testing index = 123  inputs = |]j:k[su:b|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.073056 testing index = 124  inputs = ]]s:|f:ho::s]p:|]]]sd
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.074248 testing index = 125  inputs = okje|:e:ti]yl|[r[x]|gt]zgzz[:[]:u:i]:ctml[]w[u:f]]:ltc[n:[k:[g:wdh
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.075451 testing index = 126  inputs = a|xg]:mv]:[:::p
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.076610 testing index = 127  inputs = y|:]:j[|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.077834 testing index = 128  inputs = :rr]a[m]g:[m[e::[f:my:[[::h:]:]q:h[tf[o]nj[j[c:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.079796 testing index = 129  inputs = ][:[:[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.080990 testing index = 130  inputs = aaa:|||:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.082181 testing index = 131  inputs = cyzha::al:zc:o]s
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.083387 testing index = 132  inputs = ::h]go]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.084595 testing index = 133  inputs = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.085818 testing index = 134  inputs = sa:|cas|[::oq[sn]m:::h]e]dbjh:lllafnt|xly[j]:r::euta|fs[hw[h[[[i
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.087723 testing index = 135  inputs = |:[]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.088913 testing index = 136  inputs = ][reerf][ybn[g]|i:q:]:[|:]b:xt[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['5'], test outputs = 5
+
+time: 17:42:43.090097 testing index = 137  inputs = k[h]|a|t|m]mwba[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.091283 testing index = 138  inputs = [||::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.092485 testing index = 139  inputs = b
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.093678 testing index = 140  inputs = :|xm:f:b[[|:w]t[[[ht
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.095608 testing index = 141  inputs = qyx::ti]o]|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.096793 testing index = 142  inputs = vl::r]i|y:]pi:yicacsqm|:sy|pd:nwu::r|iib]goq
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.097974 testing index = 143  inputs = af:r:gett|]t:x:f|iqdo]bm]:[w::x|]:pe:[[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.099154 testing index = 144  inputs = v[t:[q:tmrwta
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.100335 testing index = 145  inputs = ]:v[|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.101522 testing index = 146  inputs = cl|dyisv::|hn|:fgdm][z[e
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.103448 testing index = 147  inputs = w]]::|zc
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.104629 testing index = 148  inputs = |trrxb|]|z:t]s|]v|ds]u:|c:z|f|m[]bowp
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.105820 testing index = 149  inputs = :z]gr[|uvm|ngodriz]f[c]|lfxqg|p]bcoxrfv:k:r::[m|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.107083 testing index = 150  inputs = :]o[|]]|t::::]w]:[:|:ro|a::ged[slr:kug:::rww:ei:|m::ah|cwk[v
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.108268 testing index = 151  inputs = yx:tx::dqpl|:::]l|]j[y[t|d[:elr:m
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.109463 testing index = 152  inputs = d]sp]|d]::|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.111375 testing index = 153  inputs = q|dlfohjzs]:[jnuxy|[]||::]u[[j:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.112563 testing index = 154  inputs = ]s]:[co|]m:y:njby
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.113746 testing index = 155  inputs = fmnu|n:ynz:|::hk::|::]|]l::|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.114932 testing index = 156  inputs = aaaaaaaaaaaaaa[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.116112 testing index = 157  inputs = f|gzg::cl]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.117295 testing index = 158  inputs = ]x
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.119191 testing index = 159  inputs = tc|:]ekb:tu
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.120377 testing index = 160  inputs = ]ujn|]|]j|o|:q:|r:a:u:::sv:]ffrzo
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.121564 testing index = 161  inputs = tuyut]j:[u]|ft||:]houmvj[yh:[::f
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.122744 testing index = 162  inputs = n:]:][|gpxex|qw[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.123925 testing index = 163  inputs = ]gy]]fd|bd::ph::j[]]jc|eqn]|lj]:s|ew:c||:[gksv
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.125123 testing index = 164  inputs = ::p:oqv:|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.126986 testing index = 165  inputs = os::a]un:k||ri:n:d]:who|]urx:yat::]|lm:m]q]iua|:s[g::]|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.128242 testing index = 166  inputs = uy|dzq]dkobuo:c|]]c]j:|]wtssv:|:lkn][sb[dw::|m|z:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.129429 testing index = 167  inputs = euj|eip:[bgqn[bjmivsxd][j][[[]dsk:y
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.130611 testing index = 168  inputs = ]:||k:]sf::[::|yn]:xv]pg[|q[]:[wpv:|y
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['5'], test outputs = 5
+
+time: 17:42:43.131791 testing index = 169  inputs = clpy::||:fs||[w]]::||
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.132989 testing index = 170  inputs = u:ft:]|c]:q
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.134832 testing index = 171  inputs = rr::m[]|:j:uq[:t|[:trxbtq:|hj[rf
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.136043 testing index = 172  inputs = [h[|k|[hb|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.137222 testing index = 173  inputs = :|e|o:]g:[:w
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.138397 testing index = 174  inputs = ::]:asl:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.139581 testing index = 175  inputs = z:::e|r]j|n]|:f]]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.140764 testing index = 176  inputs = :ml|r:qm|:n]b::|:]]trak:ku]:::k]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.142604 testing index = 177  inputs = ]zp
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.143787 testing index = 178  inputs = |wu[ehma]]ced]d[f[m][]b]:|:|::|fbz
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.144985 testing index = 179  inputs = uyme:|oew||mvo[[|e]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.146164 testing index = 180  inputs = |zh]|]dmg|]:rtj:r|]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.147364 testing index = 181  inputs = kj:t[|[|oph]qt:h[rq[[bu[|]m|:||[hvh[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.148563 testing index = 182  inputs = :[p|vg:[|:nu[:olj::p[o[qr[ltui
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.159636 testing index = 183  inputs = ]|pv:|[|d]][:|ddhn::n|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.160972 testing index = 184  inputs = fud:e:zmci:uh]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.162192 testing index = 185  inputs = d:x|]:::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.163399 testing index = 186  inputs = lovs:iq:[][[k
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.164600 testing index = 187  inputs = xf::osgw:kmft:gvy:::]m
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.165810 testing index = 188  inputs = |hb:qtxa:nx::wnhg]p
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.167648 testing index = 189  inputs = ]:]:fcl|]a::::[z|q[|jw
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.168859 testing index = 190  inputs = np|:]q:xlct[|]hw:tfd|ci:d
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.170052 testing index = 191  inputs = nl]nz:][tpm:ps[jfx|:tfzekk
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.171239 testing index = 192  inputs = e:n|al]:i|hss:c:|v|b[u]efg[]k][u||vv:ma:ytgw:fjv|ve
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.172454 testing index = 193  inputs = pw:m|qu:|[gb[:]liv:an:oj:cavwjk[dxr:|po:ny|hu:mawqxv::[::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.173610 testing index = 194  inputs = |]:i:|[:[q|x|lmetc[|:[|c:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.174796 testing index = 195  inputs = :z::vy[lcyjoq
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.176724 testing index = 196  inputs = ::]v]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.177920 testing index = 197  inputs = :wr|ze]d:wt:]]|q:c[::sk:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.179102 testing index = 198  inputs = ]::|]:[|dob|]ke:ghk[::uxycp|:fh:pxewxaet[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.180354 testing index = 199  inputs = jf:]e:i:q]|w:nrk:hvpj|m]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.181536 testing index = 200  inputs = vhbato:s|:]vhm:o|n[hfj]pgp|bs]d|:cxv
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.182728 testing index = 201  inputs = ::b|zltkdkulzx[]ocfqcmu::r[::s
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.184619 testing index = 202  inputs = ]fq|m::|[zk][:|::hxy[u::zw|::n|a
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.185814 testing index = 203  inputs = b:|xjehu]ywpi:|][ye]:[:[:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.186998 testing index = 204  inputs = q:wdd::i:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.188187 testing index = 205  inputs = v::mp:l::[x]:w[[ehu
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.189371 testing index = 206  inputs = g]:kobbxo:[dy]:daz[[|eqe::|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.190564 testing index = 207  inputs = vz:naw[:d[][f[[wgzdki]|ct[::[yh|w|bgxd[x:q[[zm][i:r[r|[:a[][|yx][r|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['8'], test outputs = 8
+
+time: 17:42:43.192468 testing index = 208  inputs = s::dul::i[mwln:it::[|g:eh:xs|ew[bp|g]ak|ems:|:gydoq:[dg:]]:qr|[:[p[:q:[i[:]:k
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['10'], test outputs = 10
+
+time: 17:42:43.193662 testing index = 209  inputs = :][]||[|:|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.194855 testing index = 210  inputs = :n[]ncg
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.196040 testing index = 211  inputs = j:m::|:||]u:[v|z]]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.197229 testing index = 212  inputs = ]:svzta[|ey|s|oi[[gmy::ayi]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.198419 testing index = 213  inputs = :[|]did:]p:[|::|olz[:albp[[k:|||
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.200310 testing index = 214  inputs = |::|]:|]|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.201516 testing index = 215  inputs = :|q|x]zt:]:kw:cs|fn]]jadp|cq
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.202700 testing index = 216  inputs = ka:|u:|omvu:scrjwzt|]e|[[|k:h:we]::ou:]bxq|][dv:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.203886 testing index = 217  inputs = mas:]c]a::a:[g:tiejt[rvh:zz::qwufm[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.205119 testing index = 218  inputs = :k:::g|y]b|c]qwva|::v
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.206370 testing index = 219  inputs = sn::zeno:[ft]l|y|m|[||bz
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.208467 testing index = 220  inputs = t:nwkx:wg:x|:vr]|uk[[|]x|:gz:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.210035 testing index = 221  inputs = ym:dvmmajd:t]|[hqx]d:l[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.211521 testing index = 222  inputs = ::[da][ik]]v:i
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.212845 testing index = 223  inputs = :|yyu]:[lj|aa[]vfenav[:ji|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.214094 testing index = 224  inputs = gt:|]|k]:|[hikmw|hz|a[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.215344 testing index = 225  inputs = z:::]oqatxzhf:gdpr]:]:ls]art[zq
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.217369 testing index = 226  inputs = :o:]]u:evfw::]:c::gdu[lus:ej:[|:ruam:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.218641 testing index = 227  inputs = :]::k]d|:hx[]pop][:::u[s:o[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.219860 testing index = 228  inputs = ::sry]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.221078 testing index = 229  inputs = y:]:[[i]iy:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.222483 testing index = 230  inputs = ||j:]::x|:f:l
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.223815 testing index = 231  inputs = :]]:d
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.225863 testing index = 232  inputs = l]b:][::]]z|ysyifc[:s|ag[hngo|:x:rhqn|ru
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.227125 testing index = 233  inputs = ::q:ghi]:y:gtl:o:|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.228357 testing index = 234  inputs = |j::lq:ot[]]c[|]|y[bxxqgl[]]]l[g:[|dg::hl:c
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.229625 testing index = 235  inputs = yk:t:ez|b:i:ze:[mt[[[]ochz:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.230858 testing index = 236  inputs = [iy]u|bdr
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.232100 testing index = 237  inputs = :|stnr|t:x:oa]|ov[v]::jv[]to:[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.234074 testing index = 238  inputs = [a|u
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.235350 testing index = 239  inputs = ::|]]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.236585 testing index = 240  inputs = sv:sxjxf]|::]bij:]:okugd:]qlg::s:c[|:dk
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.237806 testing index = 241  inputs = pfk[w:ow[|zz:|e::|ovvy:|y:vndh:::i:d]|[[qyn:::[||::]i:|:|]abb:ut]dxva:]ppkymtk|wyg:divb:[[l:c[jy|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['13'], test outputs = 13
+
+time: 17:42:43.239068 testing index = 242  inputs = :rv::::lybr:|e:e:|iqtzgd::xhw]l]]:[aqa]d]:my[]]uo:d::s[a[:[[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.240364 testing index = 243  inputs = ]|rhs:p]:z::t[|vfr]]iu[ktw]j||a[d::ttz|ez[[:::k
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.242278 testing index = 244  inputs = rw|oe]gq]mv:]]:]:cb:s:z|:]]:g:eri
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.243485 testing index = 245  inputs = :|][|]jknnx]f[w|n|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.244682 testing index = 246  inputs = ::]t:np]:n]|jkn]:jy:|:c:]]]t||k|sm::c
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.245928 testing index = 247  inputs = :|[u]]ncc::[e:|][]l[][]p:un[w:cr:fa]dnud[tx:gz||so|||]j[wpr]b:ik:ulm[nab::u:yoo
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['5'], test outputs = 5
+
+time: 17:42:43.247121 testing index = 248  inputs = vu:]|ar|q|mwyl|]tr:qm:k:[|::jc]zzf
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.248338 testing index = 249  inputs = lvyn]zm:q:vcg[:]n]jzhmdi
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.261110 testing index = 250  inputs = ]:l:|]mm
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.262449 testing index = 251  inputs = z:qqh|]k
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.263675 testing index = 252  inputs = ]wsjx:p:hwk:ckjnb]js:w::|:|r:e]r|j]x
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.264929 testing index = 253  inputs = :]k:vkb:]]]|]ciljah:bc
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.266137 testing index = 254  inputs = [qf:d]nvex|i|n|z[z]]gsw:pnnc:lw:bofpt
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.267352 testing index = 255  inputs = :]y:qc||tg|::y[::[[l]xceg:|j[edpf[j|:bmy:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.269281 testing index = 256  inputs = rszfx:pf|h]:e:wi[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.270571 testing index = 257  inputs = r:::xez:y]nrt:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.271776 testing index = 258  inputs = d::fftr::u:kug][ea:tu:ari][
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.273002 testing index = 259  inputs = |bvff||:m]:|i|::p|[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.274197 testing index = 260  inputs = a:]a[:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.275363 testing index = 261  inputs = ]|]|]:::[]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.276573 testing index = 262  inputs = :::[||]|[]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.278474 testing index = 263  inputs = :|:][::|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.279681 testing index = 264  inputs = [||::||]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.280894 testing index = 265  inputs = ]||:::]]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.282097 testing index = 266  inputs = ::i|hack|myself::[]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.283285 testing index = 267  inputs = m|:::|:z:n:]cepp
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.284500 testing index = 268  inputs = ::n::itzc:]:abfjlmlhubk[|::[hm:x[fg|b|:axss:r[c
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.286492 testing index = 269  inputs = c:m:xbw]m|[hm:oofub
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.287722 testing index = 270  inputs = ]wvihpdy::vn:]]:|hqiaigj[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.288928 testing index = 271  inputs = omi]cb:s]kxzrjhi]:o
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.290152 testing index = 272  inputs = o|utkq|:j:]w:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.291346 testing index = 273  inputs = abc
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.292582 testing index = 274  inputs = xil]x]:hhtlz|:k:t:[pdv|ne]jyy|:sbd::jt:::|jgau:|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.294476 testing index = 275  inputs = :]:|:]|]:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.295683 testing index = 276  inputs = :]]|[fxy
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.296874 testing index = 277  inputs = q:t:|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.298114 testing index = 278  inputs = :cu:lrcc[a|mij][o]]:x:ej
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.299312 testing index = 279  inputs = sn:c:d]]|s]::e
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.300516 testing index = 280  inputs = [gp[]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.302560 testing index = 281  inputs = ||]tzs:|:]ta|jhvpdk
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.303901 testing index = 282  inputs = :os|:hj:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.305231 testing index = 283  inputs = [|h::]]]qqw:dpp::jrq:v:[:z:[b:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.306489 testing index = 284  inputs = :c]:k:ugqzk:z::[]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.307712 testing index = 285  inputs = gn]wmt]lck]::|yk]lbwbxw]:az:|:ln::|b
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.308944 testing index = 286  inputs = :lmn:gs|muauf[[p]:xjoo:|x:lsdps:go[d|l|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.310849 testing index = 287  inputs = sw|]:|::x]ff
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.312058 testing index = 288  inputs = t:b:[d:vzei[||e|uo]]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.313285 testing index = 289  inputs = :l:::ha]]:g||t:]:ky||dbl]:]:q:m||g:]ta
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.314489 testing index = 290  inputs = ::::[|:|::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.315669 testing index = 291  inputs = ]]|[k:f]||t]wg:b]]:[o[|e]hroomwxdph]|u]::[j[h:b|[mr:dn[|n[[yxoh:tf:[a[||[:::|dz
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['6'], test outputs = 6
+
+time: 17:42:43.316882 testing index = 292  inputs = [p||yi::u:::r|m:[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.318790 testing index = 293  inputs = :kew:u]blgozxp:::]a]tp|g
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.320011 testing index = 294  inputs = wsn]:ig::||:fc]v|t:yn:uaurphuj|]r|uut]:::]n]:e:pg]]]wb:]]:o||:d:p[::|:]g:k:wxcg|c[:k|w|||]mcy
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['6'], test outputs = 6
+
+time: 17:42:43.321236 testing index = 295  inputs = ]up::]dcte]|ldnz|t:|]|iao:r:|v]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.322547 testing index = 296  inputs = :[nt]|::q:ant|xijg
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.323725 testing index = 297  inputs = r]:kxu[][qe[:y:x
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.324935 testing index = 298  inputs = :z]|[[w]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.326810 testing index = 299  inputs = og|:]vxfpmq]]ax]zvx:::hm:htnicv|:hs:]ptpc[j|t]d
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.328004 testing index = 300  inputs = ]g]sl:pqsqy:b::]rj:jl]]|n:y]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.329193 testing index = 301  inputs = ejwmbu:fqkp]eb:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.330425 testing index = 302  inputs = xq]|mnn:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.331609 testing index = 303  inputs = gsl:]o:|f[e][wxmg[nlbn[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.332822 testing index = 304  inputs = dt:]y:jta:zu]dwxq|ki
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.334696 testing index = 305  inputs = zr:s]ocaf:|ruqd:::|lbek[:y[gb::k|y:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.336078 testing index = 306  inputs = n:]m]e|]:wr:iny:s]or]o:o]|:]]w|g]pp|ff
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.337378 testing index = 307  inputs = ::y:qjf:am]]]n]xrghkm|::|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.338628 testing index = 308  inputs = :||l]::||:son|::]pq|]]w|:y|]n:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.339843 testing index = 309  inputs = :]j]pons
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.341062 testing index = 310  inputs = qks]b]wtqjih:d]]jjz:|]:|i:[]b::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.342932 testing index = 311  inputs = l:vw|v|s|:ei[]jc
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.344140 testing index = 312  inputs = jyflberp:et]q:x]:n|ww:f:d||c||:aq|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.345343 testing index = 313  inputs = :s]::]p|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.346583 testing index = 314  inputs = :w:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.347773 testing index = 315  inputs = |i|:]:p
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.348976 testing index = 316  inputs = t]c:[[qt]t::v:x:|[::vaiejt|h
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.360617 testing index = 317  inputs = :eiiup]tldk
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.361967 testing index = 318  inputs = v:j]pajb
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.363196 testing index = 319  inputs = :x|b:i[d]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.364401 testing index = 320  inputs = [d:eest:t|w|cy
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.365633 testing index = 321  inputs = :ff[::[|lsfp|k]a[x:f
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.366835 testing index = 322  inputs = bk[kl:|tybma:vb::k:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.368653 testing index = 323  inputs = [:pu::[dgl[z[g||e:t:e:o|:mhxn
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.369854 testing index = 324  inputs = :jg|ift[mp|[:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.371078 testing index = 325  inputs = x::vv|d|knrx::[h:]hi[]co:ukn[[|[|:ezb
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.372265 testing index = 326  inputs = :c:ojn[[|[p]lr
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.373452 testing index = 327  inputs = |fu]s:]:uvra:x:wu|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.374616 testing index = 328  inputs = ]u]gam|y:hdql]x][ap[hae[lb[bi[czzd:fmdho
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.375822 testing index = 329  inputs = hdc:ytu|b]]:t:qms|gkwc:zf|:[kf
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.377726 testing index = 330  inputs = :]pmz[x:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.378924 testing index = 331  inputs = ty||gbbe:fnga::]|m]z:][c:a[:|ijl:orl::b[t
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.380107 testing index = 332  inputs = f]mbz]mvz[[sb:j:qi[hhp:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.381297 testing index = 333  inputs = |ryv:[c:::[t:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.382473 testing index = 334  inputs = yi|ycel:]]]iybr|spac[]:k
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.383660 testing index = 335  inputs = j::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.385548 testing index = 336  inputs = gugw|:q
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.386731 testing index = 337  inputs = :uve:jp|n|:]]:g::]:ciygwdj::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.387915 testing index = 338  inputs = khr:vri]n]m|]vn:rn
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.389104 testing index = 339  inputs = m::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.390292 testing index = 340  inputs = ::[[l|[nv]q
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.391479 testing index = 341  inputs = ezz]:||sdv]:ucb[:[|oh|bm::::cgzl
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.393352 testing index = 342  inputs = ek|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.394567 testing index = 343  inputs = :p|:rpv::r:h|]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.395770 testing index = 344  inputs = kfcw::]]::f]mx]ecmc|:o:]||k:]jghys|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.396952 testing index = 345  inputs = c[:mke:::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.398182 testing index = 346  inputs = gofpok]]]w|[][v:h[ya|:ocm|q:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.399370 testing index = 347  inputs = az:]:d]|:|:|o|:::::|j[q]]tid|pb]nxi:c|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.401256 testing index = 348  inputs = |:a:ypw|v:jovg[u:hb
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.402480 testing index = 349  inputs = ]|m|:|:w:|k|bi:ex]o]][mtz|ciy[]u[|[|][]o]lmy::|sde]sl|:|:dufv:le
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.403677 testing index = 350  inputs = ]fv:w::mfi:::q]::[|d]dao::|i]|cnt[u]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.404860 testing index = 351  inputs = g|t:]l]w]]]x|q]jf[[[div::it:t
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.406049 testing index = 352  inputs = cbk]i::bk|mo:][[|]]x
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.407235 testing index = 353  inputs = fpxbk::se|fz:z:t:|]p]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.409105 testing index = 354  inputs = [v:vv[ds|pz|:|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.410285 testing index = 355  inputs = am|::s|q|]x
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.411477 testing index = 356  inputs = :fiv|qz|xl::mjbt][i
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.412660 testing index = 357  inputs = ::|o::r[x|o][lmt[wo
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.413841 testing index = 358  inputs = t:]iu:fo:e:w:]okrh][[vu|de]:::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.415027 testing index = 359  inputs = d:s||||z:sp|:oq[iq[rx|uj[n]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.416898 testing index = 360  inputs = :|]ezv:szl]pg|:||ao
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.418087 testing index = 361  inputs = |jq]mf
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.419323 testing index = 362  inputs = z::[:rm|t:l::yotu]a|se[]:::y::[t
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['5'], test outputs = 5
+
+time: 17:42:43.420497 testing index = 363  inputs = |]bg]]::vwre::fgz:dnf:cemye|tw|]:p]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.421676 testing index = 364  inputs = g:]c:[]f|yuz|r|:if:lf:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.422868 testing index = 365  inputs = kl:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.424727 testing index = 366  inputs = |qe]|p|tcjp::m
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.425922 testing index = 367  inputs = ||b]h::x|]p
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.427158 testing index = 368  inputs = j::r:my|qml
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.428337 testing index = 369  inputs = z::]|vy:||:hs::]vm
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.429514 testing index = 370  inputs = nf:ve:ri:riubcmfx]ib]j:qqa
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.430705 testing index = 371  inputs = ne|s:jsa:pvl|sj[::]u]xbtr:|u:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.432563 testing index = 372  inputs = |o]:s||:y::g:rans::d]]|p
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.433748 testing index = 373  inputs = krm|l::|]asp]r:b:::[]qbq::p|:mi[:yrrwoa[zt
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.434977 testing index = 374  inputs = ]mz|::|sxnk:::z|:bp]ajueqi|ogkql]z:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.436187 testing index = 375  inputs = [:r:::bpz
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.437380 testing index = 376  inputs = [fkvy|f:zd::k:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.438572 testing index = 377  inputs = :]u::t:b:sp|zlq]:h::|::ad|:q]f::]::n]m:::::[el|]kb][|dcdtfqs|]o:[:af::l:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.440414 testing index = 378  inputs = ::]nd[[|][zac|x[|::l
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.441596 testing index = 379  inputs = ]|agd:[|]dds|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.442805 testing index = 380  inputs = ]::m:::::b:q[]tz
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.444004 testing index = 381  inputs = lsvs]qe]|ao]nzqojo::r]nl:w:gu
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.445184 testing index = 382  inputs = a[|]z|ec[e:l[i:yf[[:se:yy|i[toc|:[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.446365 testing index = 383  inputs = |][x]:rl::rl[f::l:::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.457408 testing index = 384  inputs = w:c:foghy:n:|]:b::ud|rs[][ua:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.458733 testing index = 385  inputs = kr|z:bd:h:]oa:y:|t]:vsx|]uo:|||
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.459966 testing index = 386  inputs = :o:r
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.461169 testing index = 387  inputs = bx]y:xwo:::|]i:lz:]:pyp|sm:|]s
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.462378 testing index = 388  inputs = v][][f[f]y[kvlewloh|tdg:a|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.463584 testing index = 389  inputs = da:z::::f:|:oj]|t:p]:]yxnlnyk:[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.465386 testing index = 390  inputs = :goep]s:]nwm]:qt::r|::x
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.466594 testing index = 391  inputs = [cm|nu:k]f]:qkjz|[k|b:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.467829 testing index = 392  inputs = ]]:o::|:hj||:k]g:pgtq:eooo:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.469032 testing index = 393  inputs = tx::k]:f]pf|x:a:n:w:h]:youw:fajc:vcmi|dx
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.470226 testing index = 394  inputs = kmfk:teu[|dh]nvwx|]:mg::[d::uco:l[nqp
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.471428 testing index = 395  inputs = oh[i]fz[][:np:ea[y
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.472619 testing index = 396  inputs = jie::q]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.474517 testing index = 397  inputs = w|exua:x:mgr[::zt
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.475712 testing index = 398  inputs = |a:xqjra|]tyl:wpk|nav[:u:[nq
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.476906 testing index = 399  inputs = :l::f:u]wmt:[rqjb|m::][[:[opi
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.478102 testing index = 400  inputs = :|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.479281 testing index = 401  inputs = |p
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.480464 testing index = 402  inputs = sqsmoyj:l:|nze|:|r]qb::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.482339 testing index = 403  inputs = :z]:|znp::as:n:bk|:qsu:wm|[wm[hkh:ju[:y|::|||je|wyu[hi
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.483569 testing index = 404  inputs = :rd
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.484764 testing index = 405  inputs = w:s:yg]::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.485946 testing index = 406  inputs = w:]ca|i|ot
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.487126 testing index = 407  inputs = jb[n]:g[::s[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.488321 testing index = 408  inputs = |]aw[id:s]k:y|b
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.490233 testing index = 409  inputs = [njo::|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.491455 testing index = 410  inputs = ]]:u|::m::huhe:s::[ubrq::wa]ttp][]hwik
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.492645 testing index = 411  inputs = ]amqhe::r:xvu:i]|:o]j|gkf:hgf]wah
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.493825 testing index = 412  inputs = :|[m:::[u::r[c
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.494998 testing index = 413  inputs = ri]qag:luidt:w]:g|j|hjua:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.496208 testing index = 414  inputs = c
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.498077 testing index = 415  inputs = ]m::i:::n|ga]m|ai|kc||]:|x|tjjmr:f
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.499293 testing index = 416  inputs = s|:[|j|[oouk:::h:|[x[:w|l:[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.500504 testing index = 417  inputs = ::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.501685 testing index = 418  inputs = vv:::[|f:y:|ke::vz:[:y[an|[b:::r:mdzl|:j:h]|s|ldmex
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['7'], test outputs = 7
+
+time: 17:42:43.502865 testing index = 419  inputs = v:bkn:dwa[]::cv
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.504061 testing index = 420  inputs = o:y|:b|:|::]f:yyqg:oy]ezc:ggv::j:iyj:bqa]:|]r:k[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.505942 testing index = 421  inputs = u:g:gt]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.507128 testing index = 422  inputs = qgb:ym:]z|og]|:hu
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.508379 testing index = 423  inputs = :[[|j]|yqdc[[f|]yv:thdmaw
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.509562 testing index = 424  inputs = n:yq:[|w|t[st:fg]d:uv[[bw:wgpy[:gnri:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.510749 testing index = 425  inputs = kisy:s:vg:yc]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.511934 testing index = 426  inputs = w:l[|:|tggqs
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.513788 testing index = 427  inputs = :o:y||f[[no]:a:ge|[v|:gw|f:u[[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.514979 testing index = 428  inputs = g|]uj
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.516206 testing index = 429  inputs = pm]e:h:|j]dts]][sl[ekt]xt|zmx:k::x:d[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.517388 testing index = 430  inputs = ]twgo[mu:xf:[||e|:l|a|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.518571 testing index = 431  inputs = h:q::|zyh:b:]hpv[yf]pp|v]:y:j
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.519758 testing index = 432  inputs = ]::[u:[w|v|:qu[[[n:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.521605 testing index = 433  inputs = p]j:]n:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.522784 testing index = 434  inputs = wa
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.524017 testing index = 435  inputs = lu|v|fs:gow]:ct[ppm]pii::[z|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.525199 testing index = 436  inputs = :e]h:]]::|]::]j|[s]]:[my::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.526375 testing index = 437  inputs = [x:[r:b[|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.527556 testing index = 438  inputs = :[sy[b|[|]]|]n|a[]tpa:::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.529406 testing index = 439  inputs = ntp]y|w:]v]|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.530590 testing index = 440  inputs = z]w:dc[dq][[]l[|||p]]ealr[m[evn:o
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.531823 testing index = 441  inputs = hxl:|c|]omqt:jeey|kjyz:nphi::[v[c[::dunu]lf
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.533012 testing index = 442  inputs = ]pbs|::g:tvu]|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.534211 testing index = 443  inputs = r::t:|:oezsfj:|]sjn]k|][][]t
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.535403 testing index = 444  inputs = t:::c:oyh:]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.537271 testing index = 445  inputs = |d]|v
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.538453 testing index = 446  inputs = p|:[w|[t]||]|[y|x|as:q|o|zbn|zkyr|q:|eu[ll::mq:[j
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.539639 testing index = 447  inputs = d]w|g:bt:k:]tzzija[]:t
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.540813 testing index = 448  inputs = :::drl:|fv::rn:q[]nq
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.541986 testing index = 449  inputs = y|::f:]]:p
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.543170 testing index = 450  inputs = u:ypnp:a::h:yqtome|kjsa:]|:rsotcg:]xcq[vvx|]]e
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.554067 testing index = 451  inputs = ::l:g
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.555380 testing index = 452  inputs = wl
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.556594 testing index = 453  inputs = :r:]z:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.557795 testing index = 454  inputs = e|v|gh:::d]|d|]d:fs]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.558994 testing index = 455  inputs = :l|kj|:sli::r:]g:yt|]:h[:::tl|hb:r
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.560187 testing index = 456  inputs = n:::[::[gwy
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.561998 testing index = 457  inputs = ::qa|v]|m|::|[nu]:||:fy::[p:af:e:qj|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.563195 testing index = 458  inputs = f|c
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.564444 testing index = 459  inputs = qq:|:f|o:g:ra[||]q
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.565633 testing index = 460  inputs = l[b:|[toa[g]qn
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.566826 testing index = 461  inputs = p:]dr]kt]t:]f:f|::s]ic]mzz:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.567989 testing index = 462  inputs = jp::l:[pyv]t:a][]::j[k:dmdc|:e]bjzp|pl[:[[::f|jo:nzu:pu|ndvpte:||
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['5'], test outputs = 5
+
+time: 17:42:43.569176 testing index = 463  inputs = :wt:nt|la:p|]:k[acxydv[][]|]e::|v|i:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.571085 testing index = 464  inputs = ]|[|zja::|g|]d:t::gawk|j|rfcada|qfkg:hi
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.572316 testing index = 465  inputs = ][mm:mqraj:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.573507 testing index = 466  inputs = :]|l:dgb::::]:]wrt
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.574694 testing index = 467  inputs = ::k:c:tjg|h]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.575874 testing index = 468  inputs = vpl:::]owzt[:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.577064 testing index = 469  inputs = djt:::bfkl:q:ls::[]kfgpgit[k[|c:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.578932 testing index = 470  inputs = r::uh]][j]bfqsn[:[|s|:kqz:|p[bl::x|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.580151 testing index = 471  inputs = y:::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.581347 testing index = 472  inputs = ]lx:rjzff
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.582527 testing index = 473  inputs = ptbb|]d
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.583716 testing index = 474  inputs = b|::b:g]]||:]nm[yrpf:t][]tzjy|:xm:q:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.584901 testing index = 475  inputs = ]::::uk:l:l:cl|]|:mbmqn
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.586775 testing index = 476  inputs = :x::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.587957 testing index = 477  inputs = ]uwfhq[uz[y::fi[:[egg:p
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.589187 testing index = 478  inputs = aa|:]w:lzf:zgw]:]|:ek|bq||d]h:]aq:n:o:]s]m]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.590370 testing index = 479  inputs = |::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.591545 testing index = 480  inputs = pky::t]zyx:||stu]tjt|:|v:[axhm[:ny|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.592720 testing index = 481  inputs = ld]]ngmi:c|tqo:v:]|]h:l
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.594593 testing index = 482  inputs = [|::[aqj]]cz:l[||::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.595797 testing index = 483  inputs = ]d]ph:pm]||ytyw:[t[|wgx:tbagh:v[l:kpsuo|pcp
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.597018 testing index = 484  inputs = do]|]c[]ad|[adzbqjz]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.598194 testing index = 485  inputs = ]qrt:]no]|::][]d:p]:iwl::[ud[|s:r
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.599377 testing index = 486  inputs = mg|[]:[kla[[a|[z
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.600560 testing index = 487  inputs = |:g[jv]ep]ln:|xnbaf
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.602421 testing index = 488  inputs = eeps]|rizigx:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.603603 testing index = 489  inputs = ::j]]]t|s:j]:bdzikd|zi|[kx]][:[lw:||mdnlw
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.604819 testing index = 490  inputs = zuf::z::w]pkf]fu]vz
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.606010 testing index = 491  inputs = icpw::k:x:wu|t:kq:ln]:|bdhiwu
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.607189 testing index = 492  inputs = :[zie]|avb[qvl
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.608392 testing index = 493  inputs = fur|z][[][w:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.610236 testing index = 494  inputs = ::cy::::iry]|m:coi[]o|[bi:z[:s:p[:gcwh::::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.611464 testing index = 495  inputs = :]jpb::]|[ifu|yb]::l:|kt
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.612647 testing index = 496  inputs = b][[[hk[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.613848 testing index = 497  inputs = |x:]::ultgj|e:t:]z
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.615027 testing index = 498  inputs = fh]]||:medq:]:|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.616218 testing index = 499  inputs = |:zwi|i:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.618062 testing index = 500  inputs = ::dd:qj[g|s[:::]yemb]lo::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.619243 testing index = 501  inputs = ]:p]b|s]e
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.620425 testing index = 502  inputs = fa:]|:qzhby:l]wazenq]de|x::::td[]|:s
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.621632 testing index = 503  inputs = m:wpuz:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.622809 testing index = 504  inputs = dwx::::g:pi|r|bf[fxtvwk|z]|x|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.623998 testing index = 505  inputs = pcn|]t|]|y:rl]]:|u|y]y:h:g|x
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.625849 testing index = 506  inputs = hfdm]]w:ldlrp|t:|:wje::]fw|k:|[snyj
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.627065 testing index = 507  inputs = e|:b]][]u|cv[rpypk:g[:gb:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.628244 testing index = 508  inputs = |zb|nd:|v
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.629473 testing index = 509  inputs = fuip:pvl:c[]::t::[x::f|f:urz
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.630644 testing index = 510  inputs = lr]b:]:]:|]|x|yiac
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.631832 testing index = 511  inputs = ]:]ty]l|c]]rkk
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.633676 testing index = 512  inputs = g]:c]etg
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.634864 testing index = 513  inputs = icx:q:]:|k|a]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.636050 testing index = 514  inputs = :]:|j|ehb]d|kqro|gdc:f:jbc|||v:gocskgf:|a::kmhv:ffwu:|qo:]v:y:igkm]:i|v|i|on
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.637272 testing index = 515  inputs = xx:|o[vu]yp[]ew[l|::::x[t::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.638456 testing index = 516  inputs = [[[[[:|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.639636 testing index = 517  inputs = rmcq]w[wu
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.650457 testing index = 518  inputs = k|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.651775 testing index = 519  inputs = c:hn:|:|qiyse:o::[pp]fn:b
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.653024 testing index = 520  inputs = |]l|gj]:p:u[]hv:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.654262 testing index = 521  inputs = r:xa::::fc:|]v|n|:axl
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.655487 testing index = 522  inputs = []|ccgd:mn|:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.656686 testing index = 523  inputs = :[::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.658486 testing index = 524  inputs = ]lj]vz:::y:::t]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.659694 testing index = 525  inputs = :]:un]v]]]cuy:w[|vms]hbnh]z[y:eru|el[[::iw[f[[:r:[w[][fezx
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['5'], test outputs = 5
+
+time: 17:42:43.660886 testing index = 526  inputs = :e:vvq:]u]]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.662130 testing index = 527  inputs = s
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.663311 testing index = 528  inputs = :e||:|::[|:[|l
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.664465 testing index = 529  inputs = f]|g:lxm]:|[[:[:whcklc|cdan|[|oi[me[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.665661 testing index = 530  inputs = ::ew:]]::d[][::c:[:ox:jv::b:b:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.667557 testing index = 531  inputs = :]|tue][rs]|x::u|]t:t:|vo|[ax[:|yomhn::bne
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.668748 testing index = 532  inputs = z
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.669984 testing index = 533  inputs = i::fd
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.671179 testing index = 534  inputs = :sv:iro|]:zfvpwa:|ug]||v:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.672368 testing index = 535  inputs = :]:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.673551 testing index = 536  inputs = n|]:w:bl|:j]:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.675416 testing index = 537  inputs = z]]]r]goiqy|x]h:|s]:tof|tm|rdd::x:]l:hg:gt::]|mru]tn|:h|
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.676607 testing index = 538  inputs = oenfnemfddbhhmig]gcd:]:mnnbj::f|ichec:|dkfnjbfjkdgoge]lfihgd[hooegj||g|gc]omkbggn:in::[dim[oie:nbkk]lfkddm:]cmjkf
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.677844 testing index = 539  inputs = [lqd]v::|e
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.679029 testing index = 540  inputs = ][i::[][gq:::|:g|n:gt:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.680216 testing index = 541  inputs = ::]z]:|:x|:b:|[][w||]j[|oxjf[oo::urc]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.681387 testing index = 542  inputs = ]w:q]a]n:p:hb:rt:|pqe|]ze:]z:::b]::c[::jj[r::dw|kbe
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.683271 testing index = 543  inputs = bb:]ranrc:s:qmrcw:atzl:]im|eg:du::j::::b|]]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.684493 testing index = 544  inputs = :[:]::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.685720 testing index = 545  inputs = u|::kepn]pr]a
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.686915 testing index = 546  inputs = n|:f||f:|xabqx]zj:nd|]vl
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.688092 testing index = 547  inputs = pwnseq[::[ajk]y:e:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['4'], test outputs = 4
+
+time: 17:42:43.689282 testing index = 548  inputs = aeo:wg|t:]s|:][[f]iczvk:boe||plg:::::::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.691154 testing index = 549  inputs = a]::]:nk]:cppyut]wb[g]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.692357 testing index = 550  inputs = |g|jwpdzh:s:]::qp|r
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.693576 testing index = 551  inputs = yj|:du|mg:c]jn
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.694775 testing index = 552  inputs = :||:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.695955 testing index = 553  inputs = ]a]:pt]]iid:g:]:rfl
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.697140 testing index = 554  inputs = t::u]|]::]:]d:]|wf|r:|:[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.699008 testing index = 555  inputs = |a|:r:]]:m]:|a
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.700191 testing index = 556  inputs = w::||[
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.701375 testing index = 557  inputs = o|:]]|d:y:x|jmvonbz:|:|]icol
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.702569 testing index = 558  inputs = :[]f:
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.703750 testing index = 559  inputs = |:[]a
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.704928 testing index = 560  inputs = :::]|||[:::
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.706785 testing index = 561  inputs = aa::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.707970 testing index = 562  inputs = ||::]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.709147 testing index = 563  inputs = ||:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+time: 17:42:43.710359 testing index = 564  inputs = :||||||:]
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['-1'], test outputs = -1
+
+
+How to read results [-2] = compile error, [-1] = runtime error [False] = failed test case [True] = passed test case
+
+
+problem path = APPS_test/0001
+
+Testing solution 0
+start = 17:42:45.392440
+test cases json = ['100\n', '48\n', '521\n', '1\n', '2\n', '3\n', '39188\n', '5\n', '6\n', '7\n', '8\n', '9\n', '10\n', '59999154\n', '1000\n', '10000\n', '100000\n', '1000000\n', '10000000\n', '100000000\n', '1000000000\n', '10000000000\n', '100000000000\n', '1000000000000\n', '10000000000000\n', '100000000000000\n', '1000000000000000\n', '10000000000000000\n', '100000000000000000\n', '1000000000000000000\n', '999999990\n', '666666899789879\n', '65499992294999000\n', '9879100000000099\n', '9991919190909919\n', '978916546899999999\n', '5684945999999999\n', '999999999999999999\n', '999999999999990999\n', '999999999999999990\n', '909999999999999999\n', '199999999999999999\n', '299999999999999999\n', '999999990009999999\n', '999000000001999999\n', '999999999991\n', '999999999992\n', '79320\n', '99004\n', '99088\n', '99737\n', '29652\n', '59195\n', '19930\n', '49533\n', '69291\n', '59452\n', '11\n', '110\n', '111\n', '119\n', '118\n', '1100\n', '1199\n', '1109\n', '1190\n', '12\n', '120\n', '121\n', '129\n', '128\n', '1200\n', '1299\n', '1209\n', '1290\n', '13\n', '130\n', '131\n', '139\n', '138\n', '1300\n', '1399\n', '1309\n', '1390\n', '14\n', '140\n', '141\n', '149\n', '148\n', '1400\n', '1499\n', '1409\n', '1490\n', '15\n', '150\n', '151\n', '159\n', '158\n', '1500\n', '1599\n', '1509\n', '1590\n', '16\n', '160\n', '161\n', '169\n', '168\n', '1600\n', '1699\n', '1609\n', '1690\n', '17\n', '170\n', '171\n', '179\n', '178\n', '1700\n', '1799\n', '1709\n', '1790\n', '18\n', '180\n', '181\n', '189\n', '188\n', '1800\n', '1899\n', '1809\n', '1890\n', '19\n', '190\n', '191\n', '199\n', '198\n', '1900\n', '1999\n', '1909\n', '1990\n', '20\n', '200\n', '201\n', '209\n', '208\n', '2000\n', '2099\n', '2009\n', '2090\n', '21\n', '210\n', '211\n', '219\n', '218\n', '2100\n', '2199\n', '2109\n', '2190\n', '22\n', '220\n', '221\n', '229\n', '228\n', '2200\n', '2299\n', '2209\n', '2290\n', '23\n', '230\n', '231\n', '239\n', '238\n', '2300\n', '2399\n', '2309\n', '2390\n', '24\n', '240\n', '241\n', '249\n', '248\n', '2400\n', '2499\n', '2409\n', '2490\n', '25\n', '250\n', '251\n', '259\n', '258\n', '2500\n', '2599\n', '2509\n', '2590\n', '26\n', '260\n', '261\n', '269\n', '268\n', '2600\n', '2699\n', '2609\n', '2690\n', '27\n', '270\n', '271\n', '279\n', '278\n', '2700\n', '2799\n', '2709\n', '2790\n', '28\n', '280\n', '281\n', '289\n', '288\n', '2800\n', '2899\n', '2809\n', '2890\n', '29\n', '290\n', '291\n', '299\n', '298\n', '2900\n', '2999\n', '2909\n', '2990\n', '999\n', '999\n', '890\n', '995\n', '999\n', '989\n', '999\n', '999\n', '991\n', '999\n', '9929\n', '4999\n', '9690\n', '8990\n', '9982\n', '9999\n', '1993\n', '9367\n', '8939\n', '9899\n', '99999\n', '93929\n', '99999\n', '38579\n', '79096\n', '72694\n', '99999\n', '99999\n', '99992\n', '27998\n', '460999\n', '999999\n', '999999\n', '998999\n', '999999\n', '999929\n', '999999\n', '999999\n', '979199\n', '999999\n', '9899999\n', '9699959\n', '9999999\n', '9997099\n', '8992091\n', '9599295\n', '2999902\n', '9999953\n', '9999999\n', '9590999\n'] ['99\n', '48\n', '499\n', '1\n', '2\n', '3\n', '38999\n', '5\n', '6\n', '7\n', '8\n', '9\n', '9\n', '59998999\n', '999\n', '9999\n', '99999\n', '999999\n', '9999999\n', '99999999\n', '999999999\n', '9999999999\n', '99999999999\n', '999999999999\n', '9999999999999\n', '99999999999999\n', '999999999999999\n', '9999999999999999\n', '99999999999999999\n', '999999999999999999\n', '999999989\n', '599999999999999\n', '59999999999999999\n', '8999999999999999\n', '9989999999999999\n', '899999999999999999\n', '4999999999999999\n', '999999999999999999\n', '999999999999989999\n', '999999999999999989\n', '899999999999999999\n', '199999999999999999\n', '299999999999999999\n', '999999989999999999\n', '998999999999999999\n', '999999999989\n', '999999999989\n', '78999\n', '98999\n', '98999\n', '98999\n', '28999\n', '58999\n', '19899\n', '48999\n', '68999\n', '58999\n', '9\n', '99\n', '99\n', '99\n', '99\n', '999\n', '999\n', '999\n', '999\n', '9\n', '99\n', '99\n', '99\n', '99\n', '999\n', '999\n', '999\n', '999\n', '9\n', '99\n', '99\n', '99\n', '99\n', '999\n', '999\n', '999\n', '999\n', '9\n', '99\n', '99\n', '99\n', '99\n', '999\n', '999\n', '999\n', '999\n', '9\n', '99\n', '99\n', '99\n', '99\n', '999\n', '999\n', '999\n', '999\n', '9\n', '99\n', '99\n', '99\n', '99\n', '999\n', '999\n', '999\n', '999\n', '9\n', '99\n', '99\n', '99\n', '99\n', '999\n', '999\n', '999\n', '999\n', '18\n', '99\n', '99\n', '189\n', '99\n', '999\n', '1899\n', '999\n', '999\n', '19\n', '189\n', '189\n', '199\n', '198\n', '1899\n', '1999\n', '1899\n', '1989\n', '19\n', '199\n', '199\n', '199\n', '199\n', '1999\n', '1999\n', '1999\n', '1999\n', '19\n', '199\n', '199\n', '199\n', '199\n', '1999\n', '1999\n', '1999\n', '1999\n', '19\n', '199\n', '199\n', '199\n', '199\n', '1999\n', '1999\n', '1999\n', '1999\n', '19\n', '199\n', '199\n', '199\n', '199\n', '1999\n', '1999\n', '1999\n', '1999\n', '19\n', '199\n', '199\n', '199\n', '199\n', '1999\n', '1999\n', '1999\n', '1999\n', '19\n', '199\n', '199\n', '199\n', '199\n', '1999\n', '1999\n', '1999\n', '1999\n', '19\n', '199\n', '199\n', '199\n', '199\n', '1999\n', '1999\n', '1999\n', '1999\n', '19\n', '199\n', '199\n', '199\n', '199\n', '1999\n', '1999\n', '1999\n', '1999\n', '28\n', '199\n', '199\n', '289\n', '199\n', '1999\n', '2899\n', '1999\n', '1999\n', '29\n', '289\n', '289\n', '299\n', '298\n', '2899\n', '2999\n', '2899\n', '2989\n', '999\n', '999\n', '889\n', '989\n', '999\n', '989\n', '999\n', '999\n', '989\n', '999\n', '9899\n', '4999\n', '8999\n', '8989\n', '9899\n', '9999\n', '1989\n', '8999\n', '8899\n', '9899\n', '99999\n', '89999\n', '99999\n', '29999\n', '78999\n', '69999\n', '99999\n', '99999\n', '99989\n', '19999\n', '399999\n', '999999\n', '999999\n', '998999\n', '999999\n', '999899\n', '999999\n', '999999\n', '899999\n', '999999\n', '9899999\n', '8999999\n', '9999999\n', '9989999\n', '8989999\n', '8999999\n', '2999899\n', '9999899\n', '9999999\n', '8999999\n']
+loaded json = 17:42:45.393560
+loading test code = 17:42:45.393588
+sol = import sys
+import time
+import itertools
+from itertools import accumulate, product, permutations, combinations
+import collections
+from collections import Counter, OrderedDict, deque, defaultdict, ChainMap
+from functools import lru_cache
+import math
+from math import sqrt, sin, cos, tan, ceil, fabs, floor, gcd, exp, log, log2
+import fractions
+from typing import List, Tuple
+import numpy as np
+import random
+import heapq
+from heapq import *
+stdin = sys.stdin
+stdout = sys.stdout
+def code():
+	x = int(input())
+	def sum_of_digits(n):
+	  return sum(int(d) for d in str(n))
+	max_sum = 0
+	result = 0
+	for i in range(x, 0, -1):
+	  if sum_of_digits(i) > max_sum:
+	    max_sum = sum_of_digits(i)
+	    result = i
+	print(result)
+
+get method = 17:42:45.396028
+time: 17:42:45.396035 testing index = 0  inputs = 100
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['99'], test outputs = 99
+
+time: 17:42:45.400222 testing index = 1  inputs = 48
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['48'], test outputs = 48
+
+time: 17:42:45.401658 testing index = 2  inputs = 521
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['499'], test outputs = 499
+
+time: 17:42:45.403361 testing index = 3  inputs = 1
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['1'], test outputs = 1
+
+time: 17:42:45.404685 testing index = 4  inputs = 2
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['2'], test outputs = 2
+
+time: 17:42:45.405989 testing index = 5  inputs = 3
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['3'], test outputs = 3
+
+time: 17:42:45.407280 testing index = 6  inputs = 39188
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['38999'], test outputs = 38999
+
+time: 17:42:45.441387 testing index = 7  inputs = 5
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['5'], test outputs = 5
+
+time: 17:42:45.442954 testing index = 8  inputs = 6
+, <class 'str'>. type = CODE_TYPE.standard_input
+==> output = ['6'], test outputs = 6
+
+global timeout
+
+How to read results [-2] = compile error, [-1] = runtime error [False] = failed test case [True] = passed test case
+{0: [[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]], 1: [[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]]}
+number of compile errors = 0 avg = 0.0
+number of runtime errors = 1 avg = 0.5
+number of test cases run = 2
+Test Case Average (average accuracy over problems) = 0.5
+Strict Accuracy (all test cases passed / total problems) = 0.5
