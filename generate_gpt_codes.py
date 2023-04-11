@@ -120,7 +120,7 @@ def generate_prompt(args, test_case_path, prompt_path, hint_path, solutions_path
     return input_content
 
 def chatgpt_response(input_content, messages):
-    message = "Just write python codes to answer the following question without any explaination or example cases:\n" + input_content
+    message = "Only write python codes to answer the following question without any explaination or example cases:\n" + input_content
     #message += ("\nWrite all under the following code module:\n" + question_code)
         
     if message:
@@ -203,7 +203,7 @@ def main(args):
             print("------------------------------------------------------------")
 
     with open(codes_loc, "w") as f:
-        json.dump(chatgpt_codes, f)
+        json.dump(chatgpt_codes, f, indent=1)
 
 
 if __name__ == "__main__":
