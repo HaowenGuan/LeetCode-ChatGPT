@@ -15,6 +15,7 @@ import time
 import transformers
 import torch
 import openai
+from collections import defaultdict
 
 from reindent import run as run_reindent
 
@@ -146,7 +147,7 @@ def main(args):
         
     problems = list(sorted(problems.values()))
 
-    chatgpt_codes = {}
+    chatgpt_codes = defaultdict(list)
     if not os.path.exists(args.save):
         os.makedirs(args.save, exist_ok=True)
     if not args.end:
@@ -167,7 +168,6 @@ def main(args):
         else:
             end = args.end
         problems = problems[start:end]
-
 
 
     # main eval loop
@@ -194,8 +194,8 @@ def main(args):
         all_problems_and_responses = [{"role": "system", "content": "Let's do some coding questions!"}]
         chatgpt_reply = chatgpt_response(input_message, all_problems_and_responses)
 
-    
-        chatgpt_codes[int(problem)] = chatgpt_reply
+        chatgpt_reply = chatgpt_reply.replace("```python", "").replace("```", "")
+        chatgpt_codes[int(problem)].append(chatgpt_reply)
 
         if args.debug:
             print(f"Generated output string:")

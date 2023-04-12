@@ -79,7 +79,9 @@ def check_correctness(prob_path, generation, timeout, debug):
 
 def eval_and_save_problems(args):
     with open(args.test_loc, "r") as f:
-        problems = sorted(json.load(f))
+        problems = json.load(f)
+        
+    problems = list(sorted(problems.values()))
 
     print(len(problems))
     gpt_codes = {}
@@ -199,14 +201,14 @@ if __name__ == "__main__":
     doctest.testmod()
 
     parser = argparse.ArgumentParser(description="Testing a Language Model on Python Code")
-    parser.add_argument("-t","--test_loc", default="../data_split/test.json", type=str, help="path to the json containing problem paths to be evaluated.")
+    parser.add_argument("-t","--test_loc", default="json_files/test.json", type=str, help="path to the json containing problem paths to be evaluated.")
     parser.add_argument("-r","--root", default="../", type=str, help="where the data is stored.")
     parser.add_argument("-s","--start", default=0, type=int)
     parser.add_argument("-e","--end", default=None, type=int, help="If you want to evaluate a subset of problems specify start and ending index. File with start and ending prefix must exist typically used with batch evaluation.")
     parser.add_argument("-i", "--index", default=0, type=int)
     parser.add_argument("-p", "--print_results", action="store_true", help="If you have already evaluated the results and only want to print them.")
     parser.add_argument("-d", "--debug", action="store_true")
-    parser.add_argument("--save", type=str, default="./results", help="Where the evaluated data is loaded from and results saved to.")
+    parser.add_argument("--save", type=str, default="json_files", help="Where the evaluated data is loaded from and results saved to.")
     parser.add_argument("--stop-early", default=None, type=int)
  
     args = parser.parse_args()
