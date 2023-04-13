@@ -136,6 +136,21 @@ def chatgpt_response(input_content, messages):
     messages.append({"role": "assistant", "content": reply})
     return reply
 
+def format_response(message):
+    start_ind = message.find('```python')
+    if message.find('```python') != -1:
+        start_ind = message.find('```python')+10
+        end_ind = message.rfind('```')-1
+
+    elif message.find('```') != -1:
+        start_ind = message.find('```')+4
+        end_ind = message.rfind('```')-1
+    else:
+        start_ind, end_ind = None, None
+
+    return message[start_ind:end_ind]
+
+
 def main(args):
     setup()
 
@@ -194,8 +209,7 @@ def main(args):
         all_problems_and_responses = [{"role": "system", "content": "Let's do some coding questions!"}]
         chatgpt_reply = chatgpt_response(input_message, all_problems_and_responses)
 
-        chatgpt_reply = chatgpt_reply.replace("```python", "").replace("```", "")
-        chatgpt_codes[int(problem)].append(chatgpt_reply)
+        chatgpt_codes[int(problem)].append(format_response(chatgpt_reply))
 
         if args.debug:
             print(f"Generated output string:")

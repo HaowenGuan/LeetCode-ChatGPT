@@ -1,10 +1,1 @@
-{"0": [[true, ""]],
-  "1": [[false, "inputs = 100\n, output = [{'98'}], correct output = [{'99'}]"]],
-  "2": [[-1, "Call-based runtime error or time limit exceeded error = EOFError('EOF when reading a line')EOF when reading a line"]],
-  "3": [[true, ""]],
-  "4": [[true, ""]],
-  "5": [[true, ""]],
-  "6": [[false, "inputs = 3\n3 10\n6 3\n8 2\n1 4\n4 10\n4 1\n3 2\n2 6\n1 100\n2 15\n10 11\n14 100\n, output = [{'2'}, {'3'}, {'2'}], correct output = [{'2'}, {'3'}, {'-1'}]"]],
-  "7": [[false, "inputs = 8 1\n, output = [{'4'}], correct output = [{'5'}]"]],
-  "8": [[false, "inputs = 1s 2s 3s\n, output = [{'2'}], correct output = [{'0'}]"]],
-  "9": [[-1, "Call-based runtime error or time limit exceeded error = NameError(\"name 'x' is not defined\")name 'x' is not defined"]]}
+{"0": [[-1, "Call-based runtime error or time limit exceeded error = TypeError(\"'NoneType' object is not callable\")'NoneType' object is not callable"]], "1": [[false, "inputs = 39188\n, output = [{'39188'}], correct output = [{'38999'}]"]], "2": [[-1, "Call-based runtime error or time limit exceeded error = EOFError('EOF when reading a line')EOF when reading a line"]], "3": [[true, ""]], "4": [[true, ""]], "5": [[true, ""]], "6": [[false, "inputs = 3\n3 10\n6 3\n8 2\n1 4\n4 10\n4 1\n3 2\n2 6\n1 100\n2 15\n10 11\n14 100\n, output = [{'2'}, {'2'}, {'2'}], correct output = [{'2'}, {'3'}, {'-1'}]"]], "7": [[false, "inputs = 5 2\n, output = [{'2'}], correct output = [{'4'}]"]], "8": [[false, "inputs = 1s 2s 3s\n, output = [{'2'}], correct output = [{'0'}]"]], "9": [[false, "inputs = 2\n3 2\n3 1 3 2\n1 2 2 2\n1 0 0 1\n, output = [{'-1'}], correct output = [{'1'}]"]]}
