@@ -16,6 +16,7 @@ import transformers
 import torch
 import openai
 from collections import defaultdict
+from test_solution import check_correctness
 
 from reindent import run as run_reindent
 
@@ -55,7 +56,7 @@ def reindent_code(codestr):
 
     return ret.getvalue()
 
-def generate_prompt(args, test_case_path, prompt_path, hint_path, solutions_path=None, starter_path=None):
+def generate_prompt(args, test_case_path, prompt_path, hint_path, starter_path=None):
     problem_text = "\nThis is the question prompt:\n"
     with open(prompt_path, "r") as f:
         data = f.readlines()
@@ -71,15 +72,15 @@ def generate_prompt(args, test_case_path, prompt_path, hint_path, solutions_path
             hints = "\nHere are some hints you can use to solve the problem:\n"
             hints += tags
 
-    # if starter_path != None:
-    #     with open(starter_path, "r") as f:
-    #         data = f.readlines()
-    #         data = "".join(data)
-    #         data = "\n" + data #+ "\n"
-    #     _input += data
-    # else:
-    #     #_input += "\n\n"
-    #     pass
+    if starter_path != None:
+        with open(starter_path, "r") as f:
+            data = f.readlines()
+            data = "".join(data)
+            data = "\n" + data #+ "\n"
+        _input += data
+    else:
+        #_input += "\n\n"
+        pass
 
     with open(test_case_path, "r") as f:
         data = json.load(f)
@@ -88,42 +89,18 @@ def generate_prompt(args, test_case_path, prompt_path, hint_path, solutions_path
     else:
         format = "\nUse call-based input/output format."#\n"
     
-    # _input += "\nANSWER:\n"
-
-    # if args.peeking > 0.0:
-    #     # Need to do some peeking. 
-
-    #     # Read one example solution
-    #     with open(solutions_path, 'r') as f:
-    #         sols = json.load(f)
-
-        # Choose the shortest solution for the model to use.
-        # This is so we can conserve tokens (1024 max)
-        # sample_sol = min(sols, key=len)
-
-        # # Add args.peeking% of that solution to the prompt
-        # sample_sol_token_ids = tokenizer.encode(sample_sol, verbose=False)
-        # num_to_keep = int(len(sample_sol_token_ids) * args.peeking)
-        # sample_sol_token_ids = sample_sol_token_ids[:num_to_keep]
-        # _input += tokenizer.decode(sample_sol_token_ids)
-
-        # Alternatively take a random solution
-    #     sample_sol = random.choice(sols)
-    #     rand_sol = reindent_code(sample_sol)
-    #     rand_sol = tokenizer.encode(rand_sol, verbose=False)
-    #     tokens_taken = int(args.peek_frac * len(rand_sol))
-    #     rand_sol = rand_sol[:tokens_taken]
-    #     _input += tokenizer.decode(rand_sol)
-    # else:
-    #     sample_sol = None
     input_content= problem_text + format + hints
 
     return input_content
 
-def chatgpt_response(input_content, messages):
-    message = "Only write python codes to answer the following question without any explaination or example cases:\n" + input_content
+def chatgpt_response(input_content, messages, feedback=False):
+    if not feedback:
+        message = "Only write python codes to answer the following question without any explaination or example cases:\n"
+    else:
+         message = "This codes have the following error, please fix the codes:\n"
+    message += input_content
     #message += ("\nWrite all under the following code module:\n" + question_code)
-        
+
     if message:
         messages.append(
             {"role": "user", "content": message},
@@ -194,20 +171,31 @@ def main(args):
         test_case_path = os.path.join(prob_path, "input_output.json")
         prompt_path = os.path.join(prob_path, "question.txt")
         hint_path = os.path.join(prob_path, "metadata.json")
-        #starter_path = os.path.join(prob_path, "starter_code.py")
+        starter_path = os.path.join(prob_path, "starter_code.py")
         #solutions_path = os.path.join(prob_path, "solutions.json")
         if not os.path.exists(test_case_path) or not os.path.exists(prompt_path):
             continue
+        
+        if not os.path.exists(starter_path): starter_path = None
 
         # Read the question in
-        input_message = generate_prompt(args, test_case_path, prompt_path, hint_path)
+        input_message = generate_prompt(args, test_case_path, prompt_path, hint_path, starter_path)
         if args.debug:
             print("PROMPT_TEXT:")
             print(input_message)
         
     
         all_problems_and_responses = [{"role": "system", "content": "Let's do some coding questions!"}]
+
         chatgpt_reply = chatgpt_response(input_message, all_problems_and_responses)
+        
+        for i in range(args.feedback_num):
+            error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply), timeout=10, debug=args.debug)
+            if error[0]: # No error
+                break
+            if args.debug:
+                print("ERROR {} is: {}".format(i, error))
+            chatgpt_reply = chatgpt_response(error[1], all_problems_and_responses, True)
 
         chatgpt_codes[int(problem)].append(format_response(chatgpt_reply))
 
@@ -234,6 +222,7 @@ if __name__ == "__main__":
     parser.add_argument("-i", "--index", default=None, type=int)
     parser.add_argument("-d", "--debug", action="store_true")
     parser.add_argument("--save", type=str, default="json_files")
+    parser.add_argument("--feedback_num", type=int, default=3)
  
     args = parser.parse_args()
     main(args)

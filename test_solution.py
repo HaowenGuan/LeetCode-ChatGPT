@@ -72,7 +72,6 @@ def eval_and_save_problems(args):
 
     problems = list(sorted(problems.values()))
 
-    print(len(problems))
     gpt_codes = {}
     gpt_bleu = {}
     gpt_codebleu = {}

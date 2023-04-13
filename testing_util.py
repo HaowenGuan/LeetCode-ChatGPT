@@ -487,7 +487,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                 if tmp_result == True:
                     results.append(tmp_result)
                     continue
-                return [False, f"inputs = {inputs}, output = {output}, correct output = {in_outs['outputs'][index]}"]
+
+                return [False, f"When inputs = {inputs.strip()}, output = {output}, but correct output = {in_outs['outputs'][index]}"]
 
     return [True, '']
 
