@@ -57,21 +57,11 @@ def reindent_code(codestr):
     return ret.getvalue()
 
 def generate_prompt(args, test_case_path, prompt_path, hint_path=None, starter_path=None):
-    problem_text = "\nThis is the question prompt:\n"
+    _input = "\nQUESTION:\n"
     with open(prompt_path, "r") as f:
         data = f.readlines()
         data = "".join(data)
-    problem_text += data
-
-    hints = ""
-    if hint_path != None:
-        with open(hint_path, "r") as f:
-            data = json.load(f)
-            tags = data.get("tags")
-            if tags:
-                tags = ",".join(tags)
-                hints = "\nHere are some hints you can use to solve the problem:\n"
-                hints += tags
+    _input += data
 
     if starter_path != None:
         with open(starter_path, "r") as f:
@@ -83,16 +73,23 @@ def generate_prompt(args, test_case_path, prompt_path, hint_path=None, starter_p
         #_input += "\n\n"
         pass
 
+    if hint_path != None:
+        with open(hint_path, "r") as f:
+            data = json.load(f)
+            tags = data.get("tags")
+            if tags:
+                tags = ",".join(tags)
+                _input += "\nHINT:\n"
+                _input += tags
+
     with open(test_case_path, "r") as f:
         data = json.load(f)
     if not data.get("fn_name"):
-        format = "\nUse standard input/output format."#\n"
+        _input += "\nUse Standard Input format"#\n"
     else:
-        format = "\nUse call-based input/output format."#\n"
-    
-    input_content= problem_text + format + hints
+        _input += "\nUse Call-Based format"#\n"
 
-    return input_content
+    return _input
 
 def chatgpt_response(input_content, messages, feedback=False):
     if not feedback:
