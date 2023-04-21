@@ -1,0 +1,11 @@
+{
+ "0": [
+  "s = input()\nif s.count(':') < 2 or s[0] != '[' or s[-1] != ']' or ':' not in s:\n    print(-1)\nelse:\n    left_colon = s.index(':')\n    right_colon = s.rindex(':')\n    middle_section = s[left_colon+1:right_colon]\n    if '|' not in middle_section:\n        print(-1)\n    else:\n        max_len = middle_section.count('|') + 4\n        print(max_len)"
+ ],
+ "1": [
+  "def get_max_digit_sum(x):\n    s = str(x)\n\n    sum_digits = sum(int(c) for c in s)\n\n    if s[0] == '9' * len(s):\n        return x\n    elif len(s) == 1:\n        return x\n    else:\n        num_9 = '9' * (len(s) - 1)\n        max_sum_digits = sum_digits - int(s[0]) + int('9' * (len(s) - 1))\n        if sum_digits <= int('9' * len(s)):\n            return int(num_9)\n        else:\n            return int(s[0] + num_9)\n\nx = int(input())\nprint(get_max_digit_sum(x))"
+ ],
+ "2": [
+  "n = int(input())\nwhile True:\n    n += 1\n    if str(n).count('0') + str(n).count('1') == len(str(n)):\n        print(n - int(input()))\n        break"
+ ]
+}

@@ -56,7 +56,7 @@ def reindent_code(codestr):
 
     return ret.getvalue()
 
-def generate_prompt(args, test_case_path, prompt_path, hint_path, starter_path=None):
+def generate_prompt(args, test_case_path, prompt_path, hint_path=None, starter_path=None):
     problem_text = "\nThis is the question prompt:\n"
     with open(prompt_path, "r") as f:
         data = f.readlines()
@@ -64,13 +64,14 @@ def generate_prompt(args, test_case_path, prompt_path, hint_path, starter_path=N
     problem_text += data
 
     hints = ""
-    with open(hint_path, "r") as f:
-        data = json.load(f)
-        print(type(data))
-        tags = ",".join(data.get("tags"))
-        if tags:
-            hints = "\nHere are some hints you can use to solve the problem:\n"
-            hints += tags
+    if hint_path != None:
+        with open(hint_path, "r") as f:
+            data = json.load(f)
+            tags = data.get("tags")
+            if tags:
+                tags = ",".join(tags)
+                hints = "\nHere are some hints you can use to solve the problem:\n"
+                hints += tags
 
     if starter_path != None:
         with open(starter_path, "r") as f:
@@ -177,6 +178,7 @@ def main(args):
             continue
         
         if not os.path.exists(starter_path): starter_path = None
+        if not args.hint: hint_path = None
 
         # Read the question in
         input_message = generate_prompt(args, test_case_path, prompt_path, hint_path, starter_path)
@@ -221,6 +223,7 @@ if __name__ == "__main__":
     parser.add_argument("-e", "--end", default=None, type=int)
     parser.add_argument("-i", "--index", default=None, type=int)
     parser.add_argument("-d", "--debug", action="store_true")
+    parser.add_argument("-k", "--hint", action="store_true")
     parser.add_argument("--save", type=str, default="json_files")
     parser.add_argument("--feedback_num", type=int, default=3)
  

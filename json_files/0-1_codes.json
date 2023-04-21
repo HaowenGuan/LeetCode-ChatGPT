@@ -1,0 +1,5 @@
+{
+ "0": [
+  "s = input()\n\n# Find the position of the opening and closing brackets.\nopening_bracket = s.find('[')\nclosing_bracket = s.rfind(']')\n\n# Check if the brackets are found and in the correct order.\nif opening_bracket == -1 or closing_bracket == -1 or closing_bracket < opening_bracket:\n    print(-1)\nelse:\n    # Get the substring between the brackets.\n    accordion = s[opening_bracket:closing_bracket+1]\n    # Count the number of vertical bars.\n    num_vertical_bars = accordion.count('|', 1, -1)\n    # Check if there are enough vertical bars and the accordion has a minimum length of 4.\n    if num_vertical_bars == 0 or len(accordion) < 4:\n        print(-1)\n    else:\n        # The length of the accordion is the number of vertical bars plus 4.\n        print(num_vertical_bars + 4)"
+ ]
+}
