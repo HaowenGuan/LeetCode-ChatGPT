@@ -64,6 +64,7 @@ def generate_prompt(args, test_case_path, prompt_path, hint_path=None, starter_p
     _input += data
 
     if starter_path != None:
+        _input += "\nSTARTER CODE:\n"
         with open(starter_path, "r") as f:
             data = f.readlines()
             data = "".join(data)
@@ -93,7 +94,7 @@ def generate_prompt(args, test_case_path, prompt_path, hint_path=None, starter_p
 
 def chatgpt_response(input_content, messages, feedback=False):
     if not feedback:
-        message = "Only write python codes to answer the following question without any explaination or example cases:\n"
+        message = "Write only python codes to answer the following question without any additional words. No comments,explaination or example cases:\n"
     else:
          message = "This codes have the following error, please fix the codes:\n"
     message += input_content
@@ -221,7 +222,7 @@ if __name__ == "__main__":
     parser.add_argument("-i", "--index", default=None, type=int)
     parser.add_argument("-d", "--debug", action="store_true")
     parser.add_argument("-k", "--hint", action="store_true")
-    parser.add_argument("--save", type=str, default="json_files")
+    parser.add_argument("--save", type=str, default="json_files/original")
     parser.add_argument("--feedback_num", type=int, default=3)
  
     args = parser.parse_args()
