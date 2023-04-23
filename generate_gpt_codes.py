@@ -138,13 +138,18 @@ def main(args):
         
     problems = list(sorted(problems.values()))
 
-    chatgpt_codes = defaultdict(list)
     if not os.path.exists(args.save):
-        os.makedirs(args.save, exist_ok=True)
-    if not args.end:
-        codes_loc = os.path.join(args.save, f"all_codes.json")
-    else:
-        codes_loc = os.path.join(args.save, f"{args.start}-{args.end}_codes.json")
+        chatgpt_codes = defaultdict(list)
+        with open(args.save, "w") as f:
+            json.dump(chatgpt_codes, f, indent=1)
+        
+
+    with open(args.save, "r") as f:
+        chatgpt_codes = defaultdict(list, json.load(f))
+    # if not args.end:
+    #     codes_loc = os.path.join(args.save, f"all_codes.json")
+    # else:
+    #     codes_loc = os.path.join(args.save, f"{args.start}-{args.end}_codes.json")
 
     # Only do the problems that are specified.
     if args.index:
@@ -197,15 +202,15 @@ def main(args):
                 print("ERROR {} is: {}".format(i, error))
             chatgpt_reply = chatgpt_response(error[1], all_problems_and_responses, True)
 
-        chatgpt_codes[int(problem)].append(format_response(chatgpt_reply))
+        chatgpt_codes[str(int(problem))].append(format_response(chatgpt_reply))
+        with open(args.save, "w") as f:
+            json.dump(chatgpt_codes, f, indent=1)
 
         if args.debug:
             print(f"Generated output string:")
             print(chatgpt_reply)
             print("------------------------------------------------------------")
 
-    with open(codes_loc, "w") as f:
-        json.dump(chatgpt_codes, f, indent=1)
 
 
 if __name__ == "__main__":
@@ -222,7 +227,7 @@ if __name__ == "__main__":
     parser.add_argument("-i", "--index", default=None, type=int)
     parser.add_argument("-d", "--debug", action="store_true")
     parser.add_argument("-k", "--hint", action="store_true")
-    parser.add_argument("--save", type=str, default="json_files/original")
+    parser.add_argument("--save", type=str, default="json_files/original/all_codes.json")
     parser.add_argument("--feedback_num", type=int, default=3)
  
     args = parser.parse_args()
