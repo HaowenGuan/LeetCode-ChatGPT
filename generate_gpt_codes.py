@@ -242,7 +242,7 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--debug", action="store_true")
     parser.add_argument("-k", "--hint", action="store_true")
     parser.add_argument("--save", type=str, default="json_files/original/")
-    parser.add_argument("--feedback_num", type=int, default=3)
+    parser.add_argument("--feedback_num", type=int, default=0)
 
     args = parser.parse_args()
     main(args)
