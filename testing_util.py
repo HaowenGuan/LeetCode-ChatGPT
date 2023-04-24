@@ -142,8 +142,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
     if os.path.exists(os.path.join(root, "input_output.json")):
         with open(os.path.join(root, "input_output.json")) as f:
             in_outs = json.load(f)
-            if debug:
-                print(f"test cases json = {in_outs['inputs']} {in_outs['outputs']}")
+            # if debug:
+            #     print(f"test cases json = {in_outs['inputs']} {in_outs['outputs']}")
 
             if in_outs.get("fn_name") is None:
                 which_type = CODE_TYPE.standard_input  # Standard input
@@ -169,7 +169,7 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
 
         if which_type == CODE_TYPE.call_based:
             sol += test
-            if debug:  # or True:
+            if debug:
                 print(f"sol = {sol}")
             signal.alarm(timeout)
             try:
@@ -187,7 +187,6 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
             signal.alarm(0)
 
         elif which_type == CODE_TYPE.standard_input:
-            # sol
             tmp_test = test.split("\n")
 
             new_test = []
@@ -401,6 +400,9 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                     results.append(tmp_result)
                     continue
 
+                ori_output = ' '.join(output)
+                ori_in_outs = ' '.join(in_outs["outputs"][index])
+
                 try:
                     tmp_result = (output == [in_outs["outputs"][index]])
                     if isinstance(in_outs["outputs"][index], list):
@@ -488,7 +490,7 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                     results.append(tmp_result)
                     continue
 
-                return [False, f"When inputs = {inputs.strip()}, output = {output}, but correct output = {in_outs['outputs'][index]}"]
+                return [False, f"Wrong Answer\n Inputs\n {inputs.strip()}\n\n Your output\n {ori_output}\n\n Correct output\n {ori_in_outs}\n"]
 
     return [True, '']
 

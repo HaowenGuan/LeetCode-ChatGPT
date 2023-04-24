@@ -57,10 +57,7 @@ def check_correctness(prob_path, generation, timeout, debug):
     if p.is_alive():
         p.kill()
     if not result:
-        # Reamark: ideally we would consider that all tests failed but we can't access number of tests here easily
-        # so we use 21=the average number of tests for a smaple in the test split instead 
-        avg_number_tests = 21
-        result = [[-1] * avg_number_tests]
+        result = [[-2, 'Unable to finish testing']]
         if debug:
             print(f"global timeout")
     return result[0]
