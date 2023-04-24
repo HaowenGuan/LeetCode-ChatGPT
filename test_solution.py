@@ -114,8 +114,6 @@ def eval_and_save_problems(args):
             continue
         prob_path = os.path.join(args.root, problem)
 
-        with open(os.path.join(prob_path, "solutions.json"), "r") as f:
-            sols = json.load(f)
 
         if not os.path.exists(args.save):
             os.makedirs(args.save)
@@ -178,7 +176,6 @@ def main(args):
     else:
         results = eval_and_save_problems(args)
 
-    print(results)
     print_results(results, args)
 
 
