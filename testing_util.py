@@ -223,7 +223,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                 signal.alarm(0)
             except Exception as e:
                 signal.alarm(0)
-                print(f"type 1 compilation error = {e}")
+                if debug:
+                    print(f"type 1 compilation error = {e}")
                 results.append(-2)
                 return [-2, f"type 1 compilation error = {e}"]
             signal.alarm(0)
@@ -235,7 +236,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
         except:
             signal.alarm(0)
             e = sys.exc_info()
-            print(f"unable to get function error = {e}")
+            if debug:
+                print(f"unable to get function error = {e}")
             results.append(-2)
             return [-2, f"unable to get function error = {e}"]
 
@@ -287,7 +289,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                 except Exception as e:
                     signal.alarm(0)
                     faulthandler.disable()
-                    print(f"Standard input runtime error or time limit exceeded error = {e}")
+                    if debug:
+                        print(f"Standard input runtime error or time limit exceeded error = {e}")
                     results.append(-1)
                     return [-1, f"Standard input runtime error or time limit exceeded error = {e}"]
                     # continue
@@ -315,7 +318,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                     except Exception as e:
                         # runtime error or took too long
                         signal.alarm(0)
-                        print(f"Call-based runtime error or time limit exceeded error = {repr(e)}{e}")
+                        if debug:
+                            print(f"Call-based runtime error or time limit exceeded error = {repr(e)}{e}")
                         results.append(-1)
                         return [-1, f"Call-based runtime error or time limit exceeded error = {repr(e)}{e}"]
                     signal.alarm(0)
@@ -353,7 +357,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                         if isinstance(output[0], str):
                             tmp_result = tmp_result or ([e.strip() for e in output] == in_outs["outputs"][index])
                 except Exception as e:
-                    print(f"Failed check1 exception = {e}")
+                    if debug:
+                        print(f"Failed check1 exception = {e}")
                     pass
 
                 if tmp_result == True:
@@ -376,7 +381,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                     if isinstance(in_outs["outputs"][index], list):
                         tmp_result = tmp_result or (output == in_outs["outputs"][index])
                 except Exception as e:
-                    print(f"Failed check2 exception = {e}")
+                    if debug:
+                        print(f"Failed check2 exception = {e}")
                     pass
 
                 if tmp_result == True:
@@ -408,7 +414,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                     if isinstance(in_outs["outputs"][index], list):
                         tmp_result = tmp_result or (output == in_outs["outputs"][index])
                 except Exception as e:
-                    print(f"Failed check3 exception = {e}")
+                    if debug:
+                        print(f"Failed check3 exception = {e}")
                     pass
 
                 try:
@@ -441,7 +448,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                 try:
                     tmp_result = (output == in_outs["outputs"][index])
                 except Exception as e:
-                    print(f"Failed check4 exception = {e}")
+                    if debug:
+                        print(f"Failed check4 exception = {e}")
                     continue
 
                 if tmp_result == True:
@@ -464,7 +472,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                     tmp_result = (set(frozenset(s) for s in output) == set(
                         frozenset(s) for s in in_outs["outputs"][index]))
                 except Exception as e:
-                    print(f"Failed check5 exception = {e}")
+                    if debug:
+                        print(f"Failed check5 exception = {e}")
 
                 # if they are all numbers, round so that similar numbers are treated as identical
                 try:
@@ -472,7 +481,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                                                 set(frozenset(round(float(t), 3) for t in s) for s in
                                                     in_outs["outputs"][index]))
                 except Exception as e:
-                    print(f"Failed check6 exception = {e}")
+                    if debug:
+                        print(f"Failed check6 exception = {e}")
 
                 if tmp_result == True and debug:
                     print("PASSED")
@@ -490,7 +500,8 @@ def run_test(prob_path: str = None, problem_list: List[str] = None, prob_index: 
                     results.append(tmp_result)
                     continue
 
-                return [False, f"Wrong Answer\n Inputs\n {inputs.strip()}\n\n Your output\n {ori_output}\n\n Correct output\n {ori_in_outs}\n"]
+                return [False,
+                        f"Wrong Answer\n Inputs\n {inputs.strip()}\n\n Your output\n {ori_output}\n\n Correct output\n {ori_in_outs}\n"]
 
     return [True, '']
 
