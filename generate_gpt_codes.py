@@ -175,50 +175,56 @@ def main(args):
 
     # main eval loop
     for problem in tqdm(problems):
-        prob_path = os.path.join(args.root, problem)
-        if args.debug:
-            print(f"problem path = {prob_path}")
+        for i in range(3):
+            try:
+                prob_path = os.path.join(args.root, problem)
+                if args.debug:
+                    print(f"problem path = {prob_path}")
 
-        test_case_path = os.path.join(prob_path, "input_output.json")
-        prompt_path = os.path.join(prob_path, "question.txt")
-        hint_path = os.path.join(prob_path, "metadata.json")
-        starter_path = os.path.join(prob_path, "starter_code.py")
-        if not os.path.exists(test_case_path) or not os.path.exists(prompt_path):
-            continue
+                test_case_path = os.path.join(prob_path, "input_output.json")
+                prompt_path = os.path.join(prob_path, "question.txt")
+                hint_path = os.path.join(prob_path, "metadata.json")
+                starter_path = os.path.join(prob_path, "starter_code.py")
+                if not os.path.exists(test_case_path) or not os.path.exists(prompt_path):
+                    continue
 
-        if not os.path.exists(starter_path): starter_path = None
-        if not args.hint: hint_path = None
+                if not os.path.exists(starter_path): starter_path = None
+                if not args.hint: hint_path = None
 
-        # Read the question in
-        input_message = generate_prompt(args, test_case_path, prompt_path, hint_path, starter_path)
-        if args.debug:
-            print("PROMPT_TEXT:")
-            print(input_message)
+                # Read the question in
+                input_message = generate_prompt(args, test_case_path, prompt_path, hint_path, starter_path)
+                if args.debug:
+                    print("PROMPT_TEXT:")
+                    print(input_message)
 
-        all_problems_and_responses = [{"role": "system", "content": "Let's do some coding questions!"}]
+                all_problems_and_responses = [{"role": "system", "content": "Let's do some coding questions!"}]
 
-        chatgpt_reply = chatgpt_response(input_message, all_problems_and_responses)
+                chatgpt_reply = chatgpt_response(input_message, all_problems_and_responses)
 
-        for i in range(args.feedback_num):
-            error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply), timeout=10,
-                                      debug=args.debug)
-            attempts[str(int(problem))] = i + 1
-            if error[0] is True:  # No error
-                break
-            if args.debug:
-                print("ERROR {} is: {} {}".format(i, error[0], error[1]))
-            chatgpt_reply = chatgpt_response(error[1], all_problems_and_responses, True)
+                for i in range(args.feedback_num):
+                    error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply), timeout=10,
+                                              debug=args.debug)
+                    attempts[str(int(problem))] = i + 1
+                    if error[0] is True:  # No error
+                        break
+                    if args.debug:
+                        print("ERROR {} is: {} {}".format(i, error[0], error[1]))
+                    chatgpt_reply = chatgpt_response(error[1], all_problems_and_responses, True)
 
-        chatgpt_codes[str(int(problem))] = [format_response(chatgpt_reply)]
-        with open(code_path, "w") as f:
-            json.dump(chatgpt_codes, f, indent=1)
-        with open(attempts_path, "w") as f:
-            json.dump(attempts, f, indent=1)
+                chatgpt_codes[str(int(problem))] = [format_response(chatgpt_reply)]
+                with open(code_path, "w") as f:
+                    json.dump(chatgpt_codes, f, indent=1)
+                with open(attempts_path, "w") as f:
+                    json.dump(attempts, f, indent=1)
 
-        if args.debug:
-            print(f"Generated output string:")
-            print(chatgpt_reply)
-            print("------------------------------------------------------------")
+                if args.debug:
+                    print(f"Generated output string:")
+                    print(chatgpt_reply)
+                    print("------------------------------------------------------------")
+            except Exception as e:
+                print(f"Exception: {e}")
+                continue
+            break
 
 
 if __name__ == "__main__":
