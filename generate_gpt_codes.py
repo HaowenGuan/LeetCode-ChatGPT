@@ -202,7 +202,7 @@ def main(args):
         for i in range(args.feedback_num):
             error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply), timeout=10,
                                       debug=args.debug)
-            attempts[str(int(problem))] += 1
+            attempts[str(int(problem))] = i + 1
             if error[0] is True:  # No error
                 break
             if args.debug:
