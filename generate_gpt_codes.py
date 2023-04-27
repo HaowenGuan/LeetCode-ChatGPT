@@ -201,16 +201,23 @@ def main(args):
 
                 chatgpt_reply = chatgpt_response(input_message, all_problems_and_responses)
 
-                for i in range(args.feedback_num):
+                for i in range(1, args.feedback_num+1):
                     error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply), timeout=10,
                                               debug=args.debug)
-                    attempts[str(int(problem))] = i + 1
+                    attempts[str(int(problem))] = i
                     if error[0] is True:  # No error
                         break
                     if args.debug:
                         print("ERROR {} is: {} {}".format(i, error[0], error[1]))
                     chatgpt_reply = chatgpt_response(error[1], all_problems_and_responses, True)
-
+                
+                error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply), timeout=10,
+                                              debug=args.debug)
+                if error[0] is True:
+                    attempts[str(int(problem))] = 4
+                else:
+                    attempts[str(int(problem))] = 5
+                    
                 chatgpt_codes[str(int(problem))] = [format_response(chatgpt_reply)]
                 with open(code_path, "w") as f:
                     json.dump(chatgpt_codes, f, indent=1)
