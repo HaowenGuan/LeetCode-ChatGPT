@@ -175,7 +175,7 @@ def main(args):
 
     # main eval loop
     for problem in tqdm(problems):
-        for i in range(3):
+        for j in range(3):
             try:
                 prob_path = os.path.join(args.root, problem)
                 if args.debug:
@@ -201,22 +201,19 @@ def main(args):
 
                 chatgpt_reply = chatgpt_response(input_message, all_problems_and_responses)
 
-                for i in range(1, args.feedback_num+1):
+                for i in range(1, args.feedback_num+2):
                     error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply), timeout=10,
                                               debug=args.debug)
                     attempts[str(int(problem))] = i
                     if error[0] is True:  # No error
                         break
+                    if i == args.feedback_num+1:
+                        attempts[str(int(problem))] = i+1
                     if args.debug:
                         print("ERROR {} is: {} {}".format(i, error[0], error[1]))
-                    chatgpt_reply = chatgpt_response(error[1], all_problems_and_responses, True)
+                    if i < args.feedback_num+1:
+                        chatgpt_reply = chatgpt_response(error[1], all_problems_and_responses, True)
                 
-                error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply), timeout=10,
-                                              debug=args.debug)
-                if error[0] is True:
-                    attempts[str(int(problem))] = 4
-                else:
-                    attempts[str(int(problem))] = 5
                     
                 chatgpt_codes[str(int(problem))] = [format_response(chatgpt_reply)]
                 with open(code_path, "w") as f:
