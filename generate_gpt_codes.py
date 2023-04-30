@@ -91,7 +91,6 @@ def generate_prompt(args, test_case_path, prompt_path, hint_path=None, starter_p
         else:
             _input += "\n-----Give code use Call-Based format-----\n"
 
-
     return _input
 
 
@@ -115,7 +114,7 @@ def chatgpt_response(input_content, messages, feedback=False):
         reply = chat_completion.choices[0].message.content
         messages.append({"role": "assistant", "content": reply})
         return reply
-    
+
     except openai.error.RateLimitError as e:
         messages.pop()
         # If we exceed the rate limit, wait for 5 seconds and try again
@@ -138,9 +137,10 @@ def format_response(message):
 
     return message[start_ind:end_ind]
 
+
 def parallel_generating_codes(problems, chatgpt_codes, code_path, attempts, attempts_path):
     for problem in tqdm(problems):
-        for j in range(3):
+        for j in range(3):  # try 3 times, for ChatGPT API error
             try:
                 prob_path = os.path.join(args.root, problem)
                 if args.debug:
@@ -165,20 +165,23 @@ def parallel_generating_codes(problems, chatgpt_codes, code_path, attempts, atte
                 all_problems_and_responses = [{"role": "system", "content": "Let's do some coding questions!"}]
 
                 chatgpt_reply = chatgpt_response(input_message, all_problems_and_responses)
+                attempts[str(int(problem))] = 1
 
-                for i in range(1, args.feedback_num+2):
-                    error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply), timeout=10,
-                                              debug=args.debug)
-                    attempts[str(int(problem))] = i
+                for i in range(args.feedback_num):
+                    error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply),
+                                              timeout=10, debug=args.debug)
                     if error[0] is True:  # No error
                         break
-                    if i == args.feedback_num+1:
-                        attempts[str(int(problem))] = i+1
                     if args.debug:
                         print("ERROR {} is: {} {}".format(i, error[0], error[1]))
-                    if i < args.feedback_num+1:
-                        chatgpt_reply = chatgpt_response(error[1], all_problems_and_responses, True)
-                          
+                    attempts[str(int(problem))] += 1
+                    chatgpt_reply = chatgpt_response(error[1], all_problems_and_responses, feedback=True)
+
+                error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply),
+                                          timeout=10, debug=args.debug)
+                if error[0] is False:
+                    attempts[str(int(problem))] += 1
+
                 chatgpt_codes[str(int(problem))] = [format_response(chatgpt_reply)]
                 with open(code_path, "w") as f:
                     json.dump(chatgpt_codes, f, indent=1)
@@ -209,8 +212,6 @@ def main(args):
     code_path = os.path.join(args.save, "all_codes.json")
     if not os.path.exists(code_path):
         chatgpt_codes = defaultdict(list)
-        with open(code_path, "w") as f:
-            json.dump(chatgpt_codes, f, indent=1)
     else:
         with open(code_path, "r") as f:
             chatgpt_codes = defaultdict(list, json.load(f))
@@ -218,11 +219,9 @@ def main(args):
     attempts_path = os.path.join(args.save, "attempts.json")
     if not os.path.exists(attempts_path):
         attempts = defaultdict(int)
-        with open(attempts_path, "w") as f:
-            json.dump(attempts, f, indent=1)
     else:
         with open(attempts_path, "r") as f:
-            attempts = defaultdict(list, json.load(f))
+            attempts = defaultdict(int, json.load(f))
 
     # Only do the problems that are specified.
     if args.index:
@@ -241,21 +240,21 @@ def main(args):
     # main eval loop
     threads = []
     batch_size = len(problems) // 5  # Number of prompts per batch
-    
+
     for i in range(5):  # Number of threads to create
         start = i * batch_size
         if i == 4:
             end = len(problems)
         else:
             end = (i + 1) * batch_size
-        thread = threading.Thread(target=parallel_generating_codes, args=(problems[start:end], chatgpt_codes, code_path, attempts, attempts_path))
+        thread = threading.Thread(target=parallel_generating_codes,
+                                  args=(problems[start:end], chatgpt_codes, code_path, attempts, attempts_path))
         thread.start()
         threads.append(thread)
 
     # Wait for all threads to finish
     for thread in threads:
         thread.join()
-   
 
 
 if __name__ == "__main__":

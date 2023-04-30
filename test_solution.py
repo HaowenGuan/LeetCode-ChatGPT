@@ -57,7 +57,7 @@ def check_correctness(prob_path, generation, timeout, debug):
     if p.is_alive():
         p.kill()
     if not result:
-        result = [[-2, 'Unable to finish testing']]
+        result = [[-1, 'Time Limit Exceeded']]
         if debug:
             print(f"global timeout")
     return result[0]
@@ -145,7 +145,6 @@ def eval_and_save_problems(args):
         if args.debug:
             print(
                 f"\nHow to read results [-2] = compile error, [-1] = runtime error [False] = failed test case [True] = passed test case")
-            # print(f"results = {res}")
 
         results[index + args.start + args.index] = res
 
