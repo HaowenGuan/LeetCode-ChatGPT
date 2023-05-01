@@ -179,7 +179,7 @@ def parallel_generating_codes(problems, chatgpt_codes, code_path, attempts, atte
 
                 error = check_correctness(prob_path=prob_path, generation=format_response(chatgpt_reply),
                                           timeout=10, debug=args.debug)
-                if error[0] is False:
+                if error[0] is not True:
                     attempts[str(int(problem))] += 1
 
                 chatgpt_codes[str(int(problem))] = [format_response(chatgpt_reply)]
@@ -237,11 +237,15 @@ def main(args):
             end = args.end
         problems = problems[start:end]
 
+    if not args.redo:
+        problems = [p for p in problems if str(int(p)) not in attempts]
+
     # main eval loop
     threads = []
-    batch_size = len(problems) // 5  # Number of prompts per batch
+    num_threads = min(5, len(problems))
+    batch_size = len(problems) // num_threads  # Number of prompts per batch
 
-    for i in range(5):  # Number of threads to create
+    for i in range(num_threads):
         start = i * batch_size
         if i == 4:
             end = len(problems)
@@ -255,6 +259,29 @@ def main(args):
     # Wait for all threads to finish
     for thread in threads:
         thread.join()
+
+
+def print_result(args):
+    attempts_path = os.path.join(args.save, "attempts.json")
+    if not os.path.exists(attempts_path):
+        attempts = defaultdict(int)
+    else:
+        with open(attempts_path, "r") as f:
+            attempts = defaultdict(int, json.load(f))
+    # for i in range(736):
+    #     if str(i) in attempts:
+    #         del attempts[str(i)]
+    correct = sum([1 for k, v in attempts.items() if v != 5])
+    print(f"Correct: {correct / len(attempts)}, count: {correct}, total: {len(attempts)}")
+    correct1 = sum([1 for k, v in attempts.items() if v == 1])
+    print(f"Correct at 1 first attempt: {correct1 / len(attempts)} %, count: {correct1}")
+    correct2 = sum([1 for k, v in attempts.items() if v == 2])
+    print(f"Correct with 1 error feedback: {correct2 / len(attempts)} %, count: {correct2}")
+    correct3 = sum([1 for k, v in attempts.items() if v == 3])
+    print(f"Correct with 2 error feedback: {correct3 / len(attempts)} %, count: {correct3}")
+    correct4 = sum([1 for k, v in attempts.items() if v == 4])
+    print(f"Correct with 3 error feedback: {correct4 / len(attempts)} %, count: {correct4}")
+
 
 
 if __name__ == "__main__":
@@ -273,6 +300,9 @@ if __name__ == "__main__":
     parser.add_argument("-k", "--hint", action="store_true")
     parser.add_argument("--save", type=str, default="json_files/original/")
     parser.add_argument("--feedback_num", type=int, default=0)
+    parser.add_argument("--redo", action="store_true", help="Redo exist problems")
+
 
     args = parser.parse_args()
     main(args)
+    # print_result(args)
