@@ -268,11 +268,15 @@ def print_result(args):
     else:
         with open(attempts_path, "r") as f:
             attempts = defaultdict(int, json.load(f))
-    # for i in range(736):
-    #     if str(i) in attempts:
-    #         del attempts[str(i)]
+    results_loc = os.path.join(args.save, f"all_results.json")
+    # with open(results_loc, "r") as f:
+    #     results = json.load(f)
+    # print(len(results))
+    # for k in results.keys():
+    #     if str(int(k)) in attempts and results[k][0][0] is not True:
+    #         attempts[str(int(k))] = 5
     correct = sum([1 for k, v in attempts.items() if v != 5])
-    print(f"Correct: {correct / len(attempts)}, count: {correct}, total: {len(attempts)}")
+    print(f"Correct: {correct / len(attempts)} %, count: {correct}, total: {len(attempts)}")
     correct1 = sum([1 for k, v in attempts.items() if v == 1])
     print(f"Correct at 1 first attempt: {correct1 / len(attempts)} %, count: {correct1}")
     correct2 = sum([1 for k, v in attempts.items() if v == 2])
@@ -304,5 +308,5 @@ if __name__ == "__main__":
 
 
     args = parser.parse_args()
-    main(args)
-    # print_result(args)
+    # main(args)
+    print_result(args)
