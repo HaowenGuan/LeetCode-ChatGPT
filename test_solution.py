@@ -104,11 +104,12 @@ def eval_and_save_problems(args):
         problems = problems[:args.stop_early]
 
     # main eval loop
-    for index, problem in enumerate(tqdm(problems)):
+    for problem in tqdm(problems):
         try:
+            output_str = gpt_codes[str(int(problem))]
             if args.debug:
                 print(f"\n\nproblem path = {problem}")
-            output_str = gpt_codes[str(index + args.start)]
+                print(output_str)
         except:
             print("CANNOT FIND OUTPUT_STR FOR", problem)
             continue
@@ -146,7 +147,7 @@ def eval_and_save_problems(args):
             print(
                 f"\nHow to read results [-2] = compile error, [-1] = runtime error [False] = failed test case [True] = passed test case")
 
-        results[index + args.start + args.index] = res
+        results[str(int(problem))] = res
 
         with open(results_loc, "w") as f:
             try:
@@ -194,7 +195,7 @@ if __name__ == "__main__":
     parser.add_argument("-p", "--print_results", action="store_true",
                         help="If you have already evaluated the results and only want to print them.")
     parser.add_argument("-d", "--debug", action="store_true")
-    parser.add_argument("--save", type=str, default="json_files",
+    parser.add_argument("--save", type=str, default="json_files/text-curie-001",
                         help="Where the evaluated data is loaded from and results saved to.")
     parser.add_argument("--stop-early", default=None, type=int)
 
