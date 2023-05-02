@@ -96,9 +96,9 @@ def generate_prompt(args, test_case_path, prompt_path, hint_path=None, starter_p
 
 def chatgpt_response(input_content, messages, feedback=False):
     if not feedback:
-        message = "Write only python codes to answer the following question without any additional words. No comments,explaination or example cases:\n"
+        message = "Write only python codes to answer the following question without any additional words. No comments,explaination or example cases (Add ``` before and after the codes):\n"
     else:
-        message = "This codes have the following error, please fix the codes:\n"
+        message = "This codes have the following error, please fix the codes (Add ``` before and after the codes):\n"
     message += input_content
     # message += ("\nWrite all under the following code module:\n" + question_code)
 
