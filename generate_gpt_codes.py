@@ -76,7 +76,7 @@ def generate_prompt(args, test_case_path, prompt_path, hint_path=None, starter_p
                 _input += tags + "\n"
 
     if starter_path is not None:
-        _input += "-----STARTER CODE-----\n\n"
+        _input += "\n\n-----STARTER CODE-----\n\n"
         with open(starter_path, "r") as f:
             data = f.readlines()
             data = "".join(data)
