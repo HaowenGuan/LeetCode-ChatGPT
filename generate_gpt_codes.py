@@ -238,7 +238,17 @@ def main(args):
         problems = problems[start:end]
 
     if not args.redo:
-        problems = [p for p in problems if str(int(p)) not in attempts]
+        # problems = [p for p in problems if str(int(p)) not in attempts or str(int(p)) not in chatgpt_codes]
+        results_loc = os.path.join(args.save, f"all_results.json")
+        with open(results_loc, "r") as f:
+            results = defaultdict(int, json.load(f))
+        problems = [p for p in problems if results[str(int(p))][0][0] == -2]
+        print(len(problems))
+        # for p in problems:
+        #     print(attempts[str(int(p))])
+    #     exit()
+    # exit()
+
 
     # main eval loop
     threads = []
@@ -275,17 +285,13 @@ def print_result(args):
     # for k in results.keys():
     #     if str(int(k)) in attempts and results[k][0][0] is not True:
     #         attempts[str(int(k))] = 5
-    correct = sum([1 for k, v in attempts.items() if v != 5])
-    print(f"Correct: {correct / len(attempts)} %, count: {correct}, total: {len(attempts)}")
+    correct = sum([1 for k, v in attempts.items() if v != args.feedback_num + 2])
+    print(f"Total Correctness: {correct / len(attempts)} %, count: {correct}, total: {len(attempts)}")
     correct1 = sum([1 for k, v in attempts.items() if v == 1])
     print(f"Correct at 1 first attempt: {correct1 / len(attempts)} %, count: {correct1}")
-    correct2 = sum([1 for k, v in attempts.items() if v == 2])
-    print(f"Correct with 1 error feedback: {correct2 / len(attempts)} %, count: {correct2}")
-    correct3 = sum([1 for k, v in attempts.items() if v == 3])
-    print(f"Correct with 2 error feedback: {correct3 / len(attempts)} %, count: {correct3}")
-    correct4 = sum([1 for k, v in attempts.items() if v == 4])
-    print(f"Correct with 3 error feedback: {correct4 / len(attempts)} %, count: {correct4}")
-
+    for i in range(1, args.feedback_num + 1):
+        correct = sum([1 for k, v in attempts.items() if v == i + 1])
+        print(f"Correct with {i + 1} error feedback: {correct / len(attempts)} %, count: {correct}")
 
 
 if __name__ == "__main__":
@@ -309,4 +315,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     main(args)
-    print_result(args)
+    # print_result(args)
